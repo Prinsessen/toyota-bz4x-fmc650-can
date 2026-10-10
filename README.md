@@ -62,6 +62,11 @@ bus even in principle.
 
 ## The two CAN buses
 
+![Teltonika's wiring diagram: the ALL-CAN300's leads, CAN1 to the white 34-pin connector (purple pin 30 CAN-H, white pin 29 CAN-L), CAN2 to the black F25 24-pin connector (green pin 11 CAN-H, white pin 12 CAN-L)](images/teltonika-sheet-wiring.jpeg)
+*From [Teltonika's vehicle sheet](teltonika/TOYOTA_BZ4X_2025_Electric_U249_6A_3F_v11_en.pdf):
+the adapter's striped wire of each pair goes to CAN-H. Ignore the tracker side on the
+right (miniUSB / Input5-6) — on the FMC650 the adapter goes into COM1's RJ45.*
+
 | bus | connector | CAN-H | CAN-L | where |
 |---|---|---|---|---|
 | **CAN1** | white 34-pin | purple, **pin 30** | white, **pin 29** | behind the lower dashboard on the passenger side, in a bank of white connectors (Teltonika's sheet; checked in the car) |
@@ -69,6 +74,11 @@ bus even in principle.
 
 CAN1 carries driving, doors, locks, lights and gears. **CAN2 carries the HV
 battery %** and the charging bits — without CAN2 there is no state of charge.
+
+![Teltonika's photos: the two connectors close up, and where they are in the car - CAN2 under the gear selector, CAN1 behind the lower dashboard on the passenger side](images/teltonika-sheet-photos.jpeg)
+*From Teltonika's vehicle sheet: CAN2 at the gear selector (left) and CAN1 behind
+the passenger-side lower dashboard (right), with the pair marked on each
+connector. The photos further down are the same connectors in this car.*
 
 ### Getting the centre console out (for CAN2)
 
