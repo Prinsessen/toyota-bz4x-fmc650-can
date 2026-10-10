@@ -35,7 +35,7 @@ priority, xx1 = operand), which the FMC650 shares — proven by reading them bac
 | 100 | Movement source | **0** | Ignition |
 | 19001 / 19002 | Movement start / stop delay | 1 / 60 | s |
 | 1000 | Open Link Timeout | **30** | s |
-| 10000 / 10004 / 10005 | Home, On Stop: Min Period / Saved Records / Send Period | **31 / 1 / 125** | Roaming = +100, Unknown = +200, same values |
+| 10000 / 10004 / 10005 | Home, On Stop: Min Period / Saved Records / Send Period | **60 / 1 / 125** | Roaming = +100, Unknown = +200, same values |
 | 10050 / 10055 | Home, Moving: Min Period / Send Period | **5 / 10** | Roaming = +100, Unknown = +200; min distance 100 m, angle 10°, speed delta 10, 1 record |
 | 45630 / 45631 | HV battery level (AVL 142): priority / operand | **2 / 5** | High + On Change |
 | 46030 / 46031 | Security State Flags P4 (AVL 12710): priority / operand | **2 / 5** | High + On Change |
@@ -62,9 +62,9 @@ its reply — the tracker handles one command at a time.
 ```
 setparam 101:48;104:30000;105:13700
 setparam 100:0;19001:1;19002:60;1000:30
-setparam 10000:31;10004:1;10005:125
-setparam 10100:31;10104:1;10105:125
-setparam 10200:31;10204:1;10205:125
+setparam 10000:60;10004:1;10005:125
+setparam 10100:60;10104:1;10105:125
+setparam 10200:60;10204:1;10205:125
 setparam 10050:5;10055:10
 setparam 10150:5;10155:10
 setparam 10250:5;10255:10

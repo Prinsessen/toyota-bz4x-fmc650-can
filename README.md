@@ -206,7 +206,7 @@ table and as ready-to-send `setparam` commands.
 
 | | Min Period | Saved records | Send Period | why |
 |---|---|---|---|---|
-| On Stop | 31 s | 1 | 125 s | 31 > Open Link Timeout (30) and 125 − 30 > 90: both are deep-sleep conditions |
+| On Stop | 60 s | 1 | 125 s | Min Period at least 2 × Open Link Timeout (30) so the link closes between records, and 125 − 30 > 90: both are deep-sleep conditions. 31 s streamed a record every 31 s and never slept |
 | Moving | 5 s | 1 | 10 s | lively in READY; ~12 records a minute while charging instead of 60 at 1 s |
 
 Moving also: min distance 100 m, min angle 10°, min speed delta 10.
@@ -311,7 +311,7 @@ tracker `setparam 105:12600` (low level 12.6 V) through Traccar's command API, a
 **Deep sleep** (io200 = 1) came about 6 minutes after switch-off and locking. It
 needs:
 
-- On Stop Min Period > Open Link Timeout
+- On Stop Min Period at least 2 × Open Link Timeout — with 31 s against 30 s the next record found the link still open, was sent at once and kept it open: a record every 31 s, no sleep
 - On Stop Send Period − Open Link Timeout > 90 s
 - **nothing on the USB port** — a connected laptop keeps it awake on its own
 
