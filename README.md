@@ -272,7 +272,7 @@ Bits **confirmed on the car**:
 | Security P4 | 22–27 | doors FL, FR, RL, RR, trunk, hood |
 | Security P4 | **28** | **charging cable connected** (stays set while the buses sleep) |
 | Security P4 | **29** | **HV battery charging** — the main phase only: it went off at 98 % while the charger still delivered 8 kW, and came back at 100 % |
-| Security P4 | 30 | electric motor working |
+| Security P4 | 30 | "electric engine working" = **motor under power**: it follows the accelerator (ON under power, OFF coasting, braking or standing, also in READY) - not "the car is on", that is READY |
 | Security P4 | 32 | central locking (auto-lock at 22–24 km/h seen) |
 | Security P4 | 41 / 42 / 43 / 44 | P / R / N / D |
 | Control P4 | 0–4 | sidelights, dipped, full beam, rear fog, front fog |
