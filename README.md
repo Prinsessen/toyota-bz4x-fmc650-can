@@ -47,7 +47,12 @@ comes from Teltonika's documentation instead, it says so.
 
 **Program number 16145** — Teltonika's vehicle sheet for *TOYOTA BZ4X (Electric)
 2025→*, with and without keyless system (sheet revision 11, valid from
-2026-03-24). Ask Teltonika for the current sheet for your car. The adapter's
+2026-03-24): **[the sheet as Teltonika sent it](teltonika/TOYOTA_BZ4X_2025_Electric_U249_6A_3F_v11_en.pdf)**
+(PDF, 2 pages: wiring diagram, connector photos, where they are in the car, the
+53 signals). It is Teltonika's document, included for reference and not covered
+by this repository's license; ask Teltonika for the current revision for your
+car. Its tracker side (miniUSB or Input5/6) does not apply to the FMC650 — see
+[Wiring](#wiring). The adapter's
 software date must be newer than the sheet's date, and an old adapter may refuse
 a five-digit program number — read the label before it goes behind a panel.
 
@@ -366,4 +371,5 @@ your warranty. Nothing here is endorsed by Toyota or Teltonika.
 
 ## License
 
-[MIT](LICENSE) © 2026 Nanna Agesen
+[MIT](LICENSE) © 2026 Nanna Agesen — except
+[teltonika/](teltonika/), which is Teltonika's own document.
