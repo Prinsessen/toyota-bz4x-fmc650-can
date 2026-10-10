@@ -65,6 +65,28 @@ bus even in principle.
 CAN1 carries driving, doors, locks, lights and gears. **CAN2 carries the HV
 battery %** and the charging bits — without CAN2 there is no state of charge.
 
+### Getting the centre console out (for CAN2)
+
+This is where most of the time went. With the ordinary clips released, the console
+still will not come off: **three white plastic clip arms** underneath hook round
+metal brackets and hold it with a gap of only **4–5 cm**. Lift the console those
+4–5 cm and, with a screwdriver through the gap, **push each white clip forwards —
+towards the front of the car — one at a time**, until it lets go of its bracket.
+
+![A white clip arm in the middle of the console, hooked round its metal bracket](images/console-white-clip-centre.jpeg)
+*One of the three white clip arms, in the middle of the console between the two
+ECUs, its hook round a metal bracket.*
+
+![A white clip arm beside the gear selector module](images/console-white-clip-by-selector.jpeg)
+*Another, beside the gear selector module. The red clips along the edge are the
+ordinary ones.*
+
+![A white clip arm seen through the gap under the console edge](images/console-white-clip-edge.jpeg)
+*Seen through the 4–5 cm gap under the console's edge: what the screwdriver has to
+reach.*
+
+### The connectors
+
 ![CAN1: the white 34-pin connector, purple/white pair](images/can1-connector-34pin.jpeg)
 *CAN1 — the white 34-pin connector, checked against Teltonika's sheet before
 fitting: the purple/white pair is exactly where the sheet draws it.*
