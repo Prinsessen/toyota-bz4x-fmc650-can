@@ -59,7 +59,9 @@ Operand: 3 Monitoring, 5 On Change.
 | id | scenario | value |
 |---|---|---|
 | 11000 | Eco Driving priority | 1 (Low); thresholds 11004-11006 as shipped, source accelerometer |
-| 11300, 11400, 11600, 11700 | the four blocks that hold Towing, Unplug (Simple), Jamming and Crash (trace off) - which id is which was not checked against the Configurator | 2 (High) |
+| 11300 / 11400 / 11600 | Jamming / Crash (11402 threshold 1500 mg, 11406 Crash Trace 0) / Towing (11605 0.22 g, 11602 activation 5 min) | 2 (High) |
+| 11700 | Immobilizer - not unplug detection (the FMC650 has no 11500 block) | 0 |
+| 11800 | Trip (start 5 km/h, ignition-off timeout 60 s) | 1 (Low) |
 
 ## As commands
 

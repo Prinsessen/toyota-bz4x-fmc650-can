@@ -238,11 +238,14 @@ arrive in seconds instead of waiting for the send period. Expect a few extra sma
 sends a minute while driving (footbrake, motor under power), one per ~5 min while
 charging, none parked. Everything else Low + Monitoring.
 
-**Scenarios** (Features): Towing detection, Unplug detection (Simple), Jamming
-detection and Crash detection at **High** (Crash trace off), Eco Driving at Low
-with the accelerometer as source. They arrive as Traccar alarms (`tow`,
-`powerCut`, `jamming`, `accident`, `hardAcceleration` / `hardBraking` /
-`hardCornering`) — see Server side. Overspeeding and Excessive idling off.
+**Scenarios** (Features): Towing detection (11600, 0.22 g, 5 min activation), Jamming
+detection (11300) and Crash detection (11400, 1500 mg, Crash Trace off) at **High**,
+Eco Driving (11000) at Low with the accelerometer as source. They arrive as Traccar
+alarms (`tow`, `jamming`, `accident`, `hardAcceleration` / `hardBraking` /
+`hardCornering`) — see Server side. There is **no unplug detection** on this firmware
+(its block, 11500, is not in the device's configuration); the row next to it is the
+Immobilizer (11700), easy to take for it. Overspeeding, Excessive idling and the
+Immobilizer off.
 
 **Doors stay Low + Monitoring** (45170/45171). With High + On Change the door
 contact's bounce — open/closed every ~250 ms while a door shuts — became a record
