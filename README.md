@@ -316,7 +316,7 @@ calls the ignition off, and the SoC stops arriving. Teltonika offers no CAN-base
 ignition on the FMC650.
 
 The fix used here: when the charger starts charging the car, the server sends the
-tracker `setparam 105:12600` (low level 12.6 V) through Traccar's command API, and
+tracker `setparam 105:12300` (low level 12.3 V) through Traccar's command API, and
 `setparam 105:13700` when the charge ends. Two guards matter:
 
 - **Put 13.7 V back promptly.** After a charge the 12 V settles at
@@ -324,6 +324,11 @@ tracker `setparam 105:12600` (low level 12.6 V) through Traccar's command API, a
   once when the ignition changes 4 times in a minute, not after a grace period.
 - **A permanently lower threshold does not work:** a full 12 V battery rests at
   12.7–12.8 V and the tracker would never sleep.
+
+- **12.6 V was too close.** The DC-DC settles at 12.60–12.68 V about 30 min into a
+  charge (the 12 V battery's own resting level), and at a 12.6 V threshold the ignition
+  blipped off after 42 min; in the tail the 12 V went down to 12.39 V. 12.3 V leaves
+  room, and the restore to 13.7 V at the end is what keeps a low value safe.
 
 ## Sleep
 

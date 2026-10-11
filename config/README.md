@@ -31,7 +31,7 @@ priority, xx1 = operand), which the FMC650 shares — proven by reading them bac
 |---|---|---|---|
 | 101 | Ignition source | **48** | Power Voltage (32) + Movement (16); 33 = DIN1 + Power Voltage if you wire DIN1 to a switched fuse |
 | 104 | High voltage level | 30000 | mV |
-| 105 | Low voltage level | **13700** | mV; 12600 while charging, set by the server (README, *Keeping the tracker awake*) |
+| 105 | Low voltage level | **13700** | mV; 12300 while charging, set by the server (README, *Keeping the tracker awake*) |
 | 100 | Movement source | **0** | Ignition |
 | 19001 / 19002 | Movement start / stop delay | 1 / 60 | s |
 | 1000 | Open Link Timeout | **30** | s |
