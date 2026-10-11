@@ -1,33 +1,33 @@
-# FMX65 — CAN-adapter (LV-CAN200 / ALL-CAN300) i Teltonika Configurator 1.8.26
+# FMX6 — CAN adapter (LV-CAN200 / ALL-CAN300) in Teltonika Configurator 1.8.26
 
-> **Verificeret mod en FMC650 (firmware 03.01.01.Rev.15, Configurator 1.8.26, 2026-10-11).** Listen
-> herunder er modellen fra Configurator-exe'en; `io_elementer_alle.tsv` beholder ét navn pr. IoId, og
-> 1 052 varianter er smidt væk i afdubleringen, så et navn kan høre til en anden firmware-familie (FMB).
-> Enheden er facit, og den siger:
+> **Verified against an FMC650 (firmware 03.01.01.Rev.15, Configurator 1.8.26, 2026-10-11).** The list
+> below is the model embedded in the Configurator executable; `io_elements_all.tsv` keeps one name per
+> IoId, and 1,052 variants were dropped in the de-duplication, so a name can belong to another firmware
+> family (FMB). The device is the authority, and it says:
 >
-> | id (priority / operand / … / avg 5) | på FMC650 i Configurator-UI'et og læst tilbage fra enheden | modellen siger |
+> | id (priority / operand / … / avg = id+5) | on the FMC650, in the Configurator UI and read back from the device | the model says |
 > |---|---|---|
-> | 45440 / 45450 / 45460 | **Security / Control / Indicator State Flags P4** (AVL 12710/12711/12712) - sat High + On Change på 45440, flagene kommer ved hver ændring | tachograf-afstand / trip / tachograf-hastighed (FMB-varianten) |
-> | 46030 / 46040 / 46050 | **Clutch switch / PTO state / Accelerator pedal (FMS IO)** - et setparam her ændrer intet på en personbil | Security/Control/Indicator P4 (listen nedenfor) - **forkert for FMC650** |
-> | 45970 | **Module ID 17B** (AVL 529; ikke vist i UI'et, slået fra med setparam 45970:0) | 45970 LVC CNG Level, 45980 Module ID 17B i listen nedenfor; `io_elementer_alle.tsv` siger 45970 = Module ID 17B |
-> | 45100, 45110, 45150, 45170, 45220, 45620, 45630, 45635, 45640, 45930, 45940, 45960 | speed, pedal, total mileage, doors, mileage counted, battery temperature, battery level, dens averaging, DTC faults, fault codes, range on battery, VIN | enig |
+> | 45440 / 45450 / 45460 | **Security / Control / Indicator State Flags P4** (AVL 12710/12711/12712) - set High + On Change on 45440, the flags arrive on every change | tachograph distance / trip distance / tachograph speed (the FMB variant) |
+> | 46030 / 46040 / 46050 | **Clutch switch / PTO state / Accelerator pedal (FMS IO)** - a setparam here changes nothing on a passenger car | Security / Control / Indicator P4 (list below) - **wrong for the FMC650** |
+> | 45970 | **Module ID 17B** (AVL 529; not shown in the UI, switched off with setparam 45970:0) | 45970 LVC CNG Level, 45980 Module ID 17B in the list below; `io_elements_all.tsv` says 45970 = Module ID 17B |
+> | 45100, 45110, 45150, 45170, 45220, 45620, 45630, 45635, 45640, 45930, 45940, 45960 | speed, pedal, total mileage, doors, mileage counted, battery temperature, battery level, its averaging constant, DTC faults, fault codes, range on battery, VIN | agrees |
 >
-> Så: brug tabellen her for 454xx/460xx på FMx6, og modellen for resten. En parameter-id bevises ved at læse
-> den af Configuratorens række og med `getparam` på enheden - ikke ved at et `setparam` bliver accepteret.
+> So: use this table for 454xx / 460xx on the FMx6 family and the model for the rest. A parameter id is
+> proven by reading it off the Configurator's row and with `getparam` on the device - not by a `setparam`
+> being accepted.
 
-
-Udtrukket fra den indlejrede parameter-model i Teltonika.Configurator_1.8.26_B.FMX6_R.194.exe
+Extracted from the embedded parameter model in Teltonika.Configurator_1.8.26_B.FMX6_R.194.exe
 Wiki: https://wiki.teltonika-gps.com/view/FMB110_CAN_adapters
 
-## Konfigurations-parametre i 'CAN Adapter'-fanen
-- 45002  Program number  (Int32, 0..99999, default 11120)  -> vælger køretøjs-profilen i adapteren
+## Configuration parameters on the 'CAN Adapter' tab
+- 45002  Program number  (Int32, 0..99999, default 11120)  -> selects the vehicle profile in the adapter
 - 45003  DTC request period  (0..65535 min, default 0)
 - 45006  IO sending options  (collection LVCAN_IO_Sending_Opt, default 2)
-- Kilde-vælger: None / LV-CAN200 (=1) / ALL-CAN300 (=2)
+- Source selector: None / LV-CAN200 (=1) / ALL-CAN300 (=2)
 
-Flag-faner (ALL-CAN300 bit-felter): Security (SSF), Control (CSF), Indicator (ISF), Agricultural (ASF), Utility (USF), Cistern (CiSF)
+Flag tabs (ALL-CAN300 bit fields): Security (SSF), Control (CSF), Indicator (ISF), Agricultural (ASF), Utility (USF), Cistern (CiSF)
 
-## Komplet liste over CAN-adapter IO-elementer (AVL ID / navn / enhed / SMS event-ID)
+## Complete list of CAN adapter I/O elements (AVL ID / name / unit / SMS event ID)
 
 45100	Vehicle speed [km/h]	(SMS 8141)
 45110	Acceleration pedal position [%]	(SMS 8142)
@@ -217,4 +217,4 @@ Flag-faner (ALL-CAN300 bit-felter): Security (SSF), Control (CSF), Indicator (IS
 605520	Rear left tire pressure [bar×100]
 605530	Rear right tire pressure [bar×100]
 
-I alt: 187 IO-elementer
+Total: 187 I/O elements

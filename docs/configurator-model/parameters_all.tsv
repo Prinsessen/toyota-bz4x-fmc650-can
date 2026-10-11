@@ -1,4 +1,4 @@
-ParameterId	Label	Control	Type	Min	Max	Default	Units	Collection	Section	Varianter
+ParameterId	Label	Control	Type	Min	Max	Default	Units	Collection	Section	Variants
 10		Keyword								1
 100	Movement Source	Collection				0		MovementSrc_CAN	Custom scenarios	3
 101	Ignition Source	Collection				32		IgnSrc_fmb64	System	4

@@ -1,55 +1,55 @@
-# FMX65 — alle parametre fra Teltonika Configurator 1.8.26
+# FMx6 — every parameter in Teltonika Configurator 1.8.26
 
-Udtrukket fra den indlejrede parameter-model (ren-tekst XML) i
-`Teltonika.Configurator_1.8.26_B.FMX6_R.194.exe`.
-Modellen ligger som ét sammenhængende XML-område (ca. byte 28.3M–31.9M) i .exe'en.
-Firmwaren (`*.e.xim`) er krypteret og indgår ikke — alt herunder kommer fra configuratoren.
+Extracted from the embedded parameter model (plain-text XML) in
+`Teltonika.Configurator_1.8.26_B.FMX6_R.194.exe`. The model is one contiguous XML region
+(about bytes 28.3M–31.9M) of the executable. The firmware (`*.e.xim`) is encrypted and is not
+part of this — everything here comes from the Configurator.
 
-## Filer
+## Files
 
-| Fil | Indhold |
-|-----|---------|
-| `parametre_alle.tsv` | **3.553 unikke konfigurations-parametre** (ParameterId). Én række pr. ID. |
-| `parametre_variants_raw.tsv` | Alle **6.552** definitioner rå — samme ID optræder flere gange, fordi modellen har versions-/hardware-diffs. |
-| `io_elementer_alle.tsv` | **2.448 unikke I/O-elementer** (IoId) — AVL-signaler, inkl. hele CAN-adapter-listen. |
-| `FMX65_CAN_adapter_parametre.md` | Fokuseret udtræk af CAN-adapter-delen (LV-CAN200 / ALL-CAN300). |
-| `_verification.json` | Rå verifikations-output (se nedenfor). |
+| File | Contents |
+|------|----------|
+| `parameters_all.tsv` | **3,553 unique configuration parameters** (ParameterId), one row per id. |
+| `parameters_variants_raw.tsv` | All **6,552** definitions raw — the same id appears several times because the model carries version / hardware differences. |
+| `io_elements_all.tsv` | **2,448 unique I/O elements** (IoId) — AVL signals, including the whole CAN adapter list. |
+| `FMX6_CAN_adapter_parameters.md` | The CAN adapter part (LV-CAN200 / ALL-CAN300), with a verification table against an FMC650. |
+| `FMX6_parameters.xlsx` | The same tables as a workbook. |
+| `_verification.json` | Raw verification output (below). |
 
-Kolonnen **Varianter** i `parametre_alle.tsv` = hvor mange forskellige definitioner
-samme ID har på tværs af firmware-versioner/hardware. 1 = entydig; >1 = ændret
-mellem versioner (fx range eller default). 890 ID'er har flere varianter.
+The **Variants** column in `parameters_all.tsv` = how many different definitions the same id has
+across firmware versions / hardware. 1 = unambiguous; >1 = changed between versions (e.g. range or
+default). 890 ids have several variants.
 
-## Verifikation (at alle er korrekte)
+## Verification (that everything was captured)
 
-Metoden: tæl rå forekomster i bytes og afstem mod det parsede, uden huller.
+Method: count raw occurrences in the bytes and reconcile against what was parsed, with no gaps.
 
 ```
-6590 rå "ParameterId="  =  6552 ægte definitioner
-                         +    19 <If …>   (valideringsregler, referencer – ikke parametre)
-                         +    19 ForParameterId=  (regel-reference, delstreng af "ParameterId=")
+6590 raw "ParameterId="  =  6552 genuine definitions
+                          +   19 <If …>   (validation rules, references – not parameters)
+                          +   19 ForParameterId=  (rule reference, a substring of "ParameterId=")
 reconciles: true   (6552 + 19 + 19 = 6590)
 
-IoId:  3500 rå  =  3500 parsede  →  2448 unikke
-Integritetsproblemer: 0   (ingen ID uden for interval, ingen ødelagt label/markup)
+IoId:  3500 raw  =  3500 parsed  →  2448 unique
+Integrity problems: 0   (no id out of range, no broken label / markup)
 ```
 
-Stikprøver bekræfter at "varianter" er ægte versions-forskelle, ikke parse-fejl, fx:
+Spot checks confirm that "variants" are real version differences, not parse errors, e.g.:
 
-- **45002 "Program number"** (CAN-adapterens bil-kode): Max = 9999 / 59999 / 65535 / 99999
-  og default 0 / 11120 afhængigt af firmware-version.
-- **100 Movement source**, **101 Ignition source**, **1000 Open link timeout**:
-  samme parameter, små forskelle i default/label mellem versioner.
+- **45002 "Program number"** (the adapter's vehicle code): Max = 9999 / 59999 / 65535 / 99999 and
+  default 0 / 11120 depending on the firmware version.
+- **100 Movement source**, **101 Ignition source**, **1000 Open link timeout**: the same parameter,
+  small differences in default / label between versions.
 
-## Forbehold
+## Caveats
 
-`io_elementer_alle.tsv` beholder ét navn pr. IoId (3 500 rå -> 2 448 unikke): et navn kan høre til en anden
-firmware-familie end FMx6. Kolonnen *Section* er upålidelig (CAN-elementer står under "Auto Geofence" m.m.).
-Det, der er efterprøvet på en FMC650, står øverst i `FMX65_CAN_adapter_parametre.md` - dér afviger
-454xx/460xx fra modellen.
+`io_elements_all.tsv` keeps one name per IoId (3,500 raw → 2,448 unique): a name can belong to a
+firmware family other than FMx6. The *Section* column is unreliable (CAN elements appear under
+"Auto Geofence" and the like). What has been checked on an FMC650 is at the top of
+`FMX6_CAN_adapter_parameters.md` — there the 454xx / 460xx ids differ from the model.
 
-## Fordeling
+## Distribution
 
-- Kontroltyper: NumberInput 1375, Collection 770, DropDownList 635, TextBox 533,
-  TextBoxMasked 130, m.fl.
-- Største sektioner (unikke params): Network Settings 713, Manual CAN Requests 365,
-  MODBUS 230, dataacquisition 173, CAN Adapter 64, SMS Events 64 …
+- Control types: NumberInput 1375, Collection 770, DropDownList 635, TextBox 533, TextBoxMasked 130, …
+- Largest sections (unique parameters): Network Settings 713, Manual CAN Requests 365, MODBUS 230,
+  dataacquisition 173, CAN Adapter 64, SMS Events 64 …
