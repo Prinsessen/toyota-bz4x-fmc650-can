@@ -197,10 +197,23 @@ table and as ready-to-send `setparam` commands.
    `lvcansetprog 16145`).
 5. **Status → CAN Adapter** (or `lvcangetinfo`) shows whether the adapter is
    detected and which program it runs. Look there first if nothing arrives.
-6. **Enable the LVCAN I/O elements.** 61 of 73 were at *None* out of the box, and
-   a disabled element is never sent. First pass: all at Low, trim later.
-7. **Enable the P4 state flags** (Security / Control / Indicator P4) — separate I/O
-   elements, off by default.
+6. **Enable exactly the LVCAN I/O elements the car delivers** — most are at *None*
+   out of the box, a disabled element is never sent, and an enabled one the car
+   does not feed rides along empty. On the bZ4X that is twelve: Vehicle Speed,
+   Accelerator Pedal Position, Total Mileage, Total Mileage (counted), Door
+   Status, Battery Level Percent, Vehicles Range On Battery, VIN, Fault Codes, and
+   the **Security / Control / Indicator State Flags P4** (separate elements, off
+   by default). Everything else under LVCAN — fuel, engine, AdBlue, axle loads,
+   tachograph, battery temperature, DTC, CNG, oil — stays *None*, and so does the
+   whole **FMS IO** group (J1939 trucks). The Configurator shows each row's
+   parameter id; the FMS rows sit right after the LVCAN ones (46030 is "Clutch
+   switch", not a flag table — a `setparam` to a wrong id is accepted without
+   complaint).
+7. **Battery Level Percent → Avg const 1.** Teltonika's default averaging
+   constant of 10 is a low-pass filter: when the bus goes to sleep with the
+   tracker's ignition still on, the adapter reads 0 and the filter walks the
+   reported level down step by step (98 → 79 → 63 → 51 → 41 → 33 in one burst) and
+   back up again. With 1 a 0 is a 0, and the binding drops it as "no reading".
 
 **Data acquisition** (Home, Roaming and Unknown identical):
 
@@ -218,12 +231,18 @@ count down during a charge, but a car standing in READY then counts as *On Stop*
 and reports every 31–125 s — the app felt dead at a standstill. Ignition with a
 5 s moving period was the better trade.
 
-**Event priorities.** **HV battery level** (45630/45631) and **Security P4**
-(46030/46031) at **High + On Change**: each change makes its own record and is
-sent at once — lock, READY, cable, charging, gear and each % while charging arrive
-in seconds instead of waiting for the send period. Cost: about 3 extra small sends
-a minute while driving, one per ~5 min while charging, none parked. Everything else
-Low + Monitoring.
+**Event priorities.** **Battery Level Percent** (45630/45631) and **Security State
+Flags P4** (45440/45441) at **High + On Change**: each change makes its own record
+and is sent at once — lock, READY, cable, charging, gear and each % while charging
+arrive in seconds instead of waiting for the send period. Expect a few extra small
+sends a minute while driving (footbrake, motor under power), one per ~5 min while
+charging, none parked. Everything else Low + Monitoring.
+
+**Scenarios** (Features): Towing detection, Unplug detection (Simple), Jamming
+detection and Crash detection at **High** (Crash trace off), Eco Driving at Low
+with the accelerometer as source. They arrive as Traccar alarms (`tow`,
+`powerCut`, `jamming`, `accident`, `hardAcceleration` / `hardBraking` /
+`hardCornering`) — see Server side. Overspeeding and Excessive idling off.
 
 **Doors stay Low + Monitoring** (45170/45171). With High + On Change the door
 contact's bounce — open/closed every ~250 ms while a door shuts — became a record

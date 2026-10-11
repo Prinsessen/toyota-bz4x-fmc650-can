@@ -38,8 +38,10 @@ priority, xx1 = operand), which the FMC650 shares — proven by reading them bac
 | 10000 / 10004 / 10005 | Home, On Stop: Min Period / Saved Records / Send Period | **60 / 1 / 125** | Roaming = +100, Unknown = +200, same values |
 | 10050 / 10055 | Home, Moving: Min Period / Send Period | **5 / 10** | Roaming = +100, Unknown = +200; min distance 100 m, angle 10°, speed delta 10, 1 record |
 | 45630 / 45631 | HV battery level (AVL 142): priority / operand | **2 / 5** | High + On Change |
-| 46030 / 46031 | Security State Flags P4 (AVL 12710): priority / operand | **2 / 5** | High + On Change |
-| 46040 / 46050 | Control / Indicator State Flags P4 (12711 / 12712): priority | 1 | Low, operand Monitoring (3) |
+| 45440 / 45441 | Security State Flags P4 (AVL 12710): priority / operand | **2 / 5** | High + On Change |
+| 45450, 45460 | Control / Indicator State Flags P4 (12711 / 12712): priority | 1 | Low, operand Monitoring (3) |
+| 45635 | Battery Level Percent: averaging constant | **1** | default 10 walks the level down to 33 % when the bus sleeps |
+| 45620, 45640, 46030-46050 | battery temperature, DTC faults, the FMS IO group | 0 | the car has none of them; 46030 is the FMS clutch switch, NOT a flag table |
 | 45170 / 45171 | Door status (AVL 143): priority / operand | **1 / 3** | Low + Monitoring — High + On Change sends every contact bounce |
 | 50220 / 50230 / 50240 | Accelerometer axes X / Y / Z | 0 | Traccar reads AVL 236 as a false alarm |
 | 50820, 50250 | IMSI, ICCID | 0 | |
@@ -51,6 +53,13 @@ priority, xx1 = operand), which the FMC650 shares — proven by reading them bac
 
 Priority: 0 off, 1 Low, 2 High, 3 Panic (High + SMS when GPRS fails).
 Operand: 3 Monitoring, 5 On Change.
+
+## Scenarios
+
+| id | scenario | value |
+|---|---|---|
+| 11000 | Eco Driving priority | 1 (Low); thresholds 11004-11006 as shipped, source accelerometer |
+| 11300, 11400, 11600, 11700 | the four blocks that hold Towing, Unplug (Simple), Jamming and Crash (trace off) - which id is which was not checked against the Configurator | 2 (High) |
 
 ## As commands
 
@@ -68,8 +77,10 @@ setparam 10200:60;10204:1;10205:125
 setparam 10050:5;10055:10
 setparam 10150:5;10155:10
 setparam 10250:5;10255:10
-setparam 45630:2;46030:2
-setparam 45631:5;46031:5
+setparam 45630:2;45440:2
+setparam 45631:5;45441:5
+setparam 45635:1
+setparam 45620:0;45640:0;46030:0;46040:0;46050:0
 setparam 45170:1;45171:3
 setparam 50220:0;50230:0;50240:0
 setparam 50820:0;50250:0;50690:0;50700:0;50650:0
