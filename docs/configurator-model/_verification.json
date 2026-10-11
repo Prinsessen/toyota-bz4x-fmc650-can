@@ -1,0 +1,125 @@
+{
+  "raw_ParameterId_substrings": 6590,
+  "ForParameterId_refs": 19,
+  "If_condition_refs": 19,
+  "genuine_parameter_definition_tags": 6552,
+  "reconciles": true,
+  "reconcile_equation": "6552 defs + 19 If + 19 ForParameterId = 6590 (raw 6590)",
+  "unique_ParameterId": 3553,
+  "ParameterId_with_multiple_variants": 890,
+  "raw_IoId_substrings": 3500,
+  "parsed_IoItem_tags": 3500,
+  "unique_IoId": 2448,
+  "integrity_problems": 0,
+  "integrity_samples": [],
+  "spot_checks": {
+    "45002": [
+      [
+        "NumberInput",
+        "Program Number",
+        "0",
+        "59999",
+        "0"
+      ],
+      [
+        "NumberInput",
+        "Program Number",
+        "0",
+        "9999",
+        "0"
+      ],
+      [
+        "NumberInput",
+        "Program number",
+        "0",
+        "65535",
+        "0"
+      ],
+      [
+        "NumberInput",
+        "Program number",
+        "0",
+        "99999",
+        "11120"
+      ],
+      [
+        "UiControl",
+        "Program Number",
+        "0",
+        "59999",
+        "0"
+      ]
+    ],
+    "100": [
+      [
+        "Collection",
+        "Movement Source",
+        null,
+        null,
+        "0"
+      ],
+      [
+        "Collection",
+        "Movement source",
+        null,
+        null,
+        "1"
+      ]
+    ],
+    "101": [
+      [
+        "Collection",
+        "Ignition Source",
+        null,
+        null,
+        "32"
+      ],
+      [
+        "Collection",
+        "Ignition source",
+        null,
+        null,
+        "4"
+      ]
+    ],
+    "1000": [
+      [
+        "NumberInput",
+        "Open Link Timeout",
+        "30",
+        "259200",
+        "30"
+      ],
+      [
+        "NumberInput",
+        "Open link timeout",
+        "30",
+        "259200",
+        "300"
+      ]
+    ],
+    "11007": [
+      [
+        "Collection",
+        "Source",
+        null,
+        null,
+        "0"
+      ],
+      [
+        "Collection",
+        "Source",
+        null,
+        null,
+        "1"
+      ],
+      [
+        "NoAction",
+        "Source",
+        null,
+        null,
+        null
+      ]
+    ]
+  }
+}

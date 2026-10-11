@@ -390,6 +390,16 @@ Worth doing whatever the server: keep the Toyota cloud's state of charge as a
 fallback and a cross-check, and pick per signal the freshest source — CAN while
 the tracker is awake, the cloud while it sleeps.
 
+## The Configurator's parameter model
+
+[docs/configurator-model/](docs/configurator-model/) holds the parameter model extracted from
+Teltonika Configurator 1.8.26 for the FMx6 family: 3 553 configuration parameters, 2 448 I/O
+elements (the whole CAN adapter list with AVL ids and SMS event ids), as TSV and Excel, plus a
+CAN-adapter note. Read its verification table first: the model keeps one name per id across
+firmware families, and on the FMC650 the 454xx ids are the P4 flag tables (not the tachograph)
+and 460xx are FMS IO (not the P4 flags) - the mistakes this guide's author made before reading the
+ids off the device.
+
 ## What the car does not give
 
 Not on this car's CAN through the ALL-CAN300: battery temperature, charging power

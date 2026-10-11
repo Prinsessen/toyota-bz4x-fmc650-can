@@ -1,0 +1,2449 @@
+IoId	Name	Units	SmsEventId	CustomIoItem	Section
+40100	Number Of DTC		8038		Trip \ Odometer
+40110	Engine Load	%	8039		Trip \ Odometer
+40120	Coolant Temperature	â	8040		Trip \ Odometer
+40130	Short Fuel Trim	%	8041		Trip \ Odometer
+40140	Fuel Pressure	kPa	8042		Trip \ Odometer
+40150	Intake MAP	kPa	8043		Trip \ Odometer
+40160	Engine RPM	rpm	8044		Trip \ Odometer
+40170	Vehicle speed	km/h	8045		Trip \ Odometer
+40180	Timing advance	Â°	8046		Trip \ Odometer
+40190	Intake air temperature	â	8047		Trip \ Odometer
+40200	MAF	g/sec	8048		Trip \ Odometer
+40210	Throttle position	%	8049		Trip \ Odometer
+40220	Run time since engine start	s	8050		Trip \ Odometer
+40230	Distance traveled MIL on	km	8051		Trip \ Odometer
+40240	Relative fuel rail pressure	kPa	8052		Trip \ Odometer
+40250	Direct fuel rail pressure	kPa	8053		Trip \ Odometer
+40260	Commanded EGR	%	8054		Trip \ Odometer
+40270	EGR error	%	8055		Trip \ Odometer
+40280	Fuel level	%	8056		Trip \ Odometer
+40290	Distance traveled since codes clear	km	8057		Trip \ Odometer
+40300	Barometric pressure	kPa	8058		Trip \ Odometer
+40310	Control module voltage	V	8059		Trip \ Odometer
+40320	Absolute load value	%	8060		Trip \ Odometer
+40330	Ambient air temperature	â	8061		Trip \ Odometer
+40340	Time run with MIL on	min	8062		Trip \ Odometer
+40350	Time since trouble codes cleared	min	8063		Trip \ Odometer
+40360	Absolute fuel rail pressure	kPa	8064		Trip \ Odometer
+40370	Hybrid battery pack remaining life	%	8065		Trip \ Odometer
+40380	Engine oil temperature	â	8066		Trip \ Odometer
+40390	Fuel injection timing	Â°Ã100	8067		Trip \ Odometer
+40400	Fuel Rate	L/hÃ100	8068		Trip \ Odometer
+40410	VIN		8241		Trip \ Odometer
+40420	Fault Codes		8264		Trip \ Odometer
+40430	OEM Total mileage	km	8522		User Interface
+40440	OEM Fuel level l	LÃ10	8529		User Interface
+40450	Accelerator Pedal Position	%	8523		Network Settings
+40460	Command Equivalence Ratio	Ã100	8524		Network Settings
+40470	Intake MAP (2 Bytes)	kPa	8525		Network Settings
+40480	Hybrid Vehicle System Voltage	V	8526		Network Settings
+40490	Hybrid Vehicle System Current	AÃ10	8527		Network Settings
+40510	OEM Distance Until Service	km	8627		Network Settings
+40520	OEM Remaining Distance	km	8628		Network Settings
+40560	Fuel Type		8633		Network Settings
+40570	OEM Battery Charge State		8634		Network Settings
+40580	OEM Battery Charge Level	%	8635		Network Settings
+40600	OEM Battery State Of Health	%	8972		Network Settings
+40610	OEM Battery Temperature	Â°C	8973		Network Settings
+45100	Vehicle Speed	km/h	8141		Auto Geofence
+45110	Acceleration Pedal Position	%	8142		Auto Geofence
+45120	Fuel Consumed	ltr	8143		Auto Geofence
+45130	Fuel Level	ltr	8144		Auto Geofence
+45140	Engine RPM	rpm	8145		Auto Geofence
+45150	Total Mileage	m	8146		Auto Geofence
+45160	Fuel Level	%	8147		Auto Geofence
+45170	Door Status		8148		Auto Geofence
+45180	Program Number		8149		Auto Geofence
+45190	Module ID 8B		8150		Auto Geofence
+45200	Engine Worktime	min	8151		Auto Geofence
+45210	Engine Worktime (counted)	min	8152		Auto Geofence
+45220	Total Mileage (counted)	m	8153		Auto Geofence
+45230	Fuel Consumed (counted)	ltr	8154		Auto Geofence
+45240	Fuel Rate	ltr/h	8155		Auto Geofence
+45250	AdBlue Level	%	8156		Auto Geofence
+45260	AdBlue Level	ltr	8157		Auto Geofence
+45270	Engine Load	%	8158		Auto Geofence
+45280	Engine Temperature	â	8159		Auto Geofence
+45290	Axle 1 Load	kg	8160		Auto Geofence
+45300	Axle 2 Load	kg	8161		Auto Geofence
+45310	Axle 3 Load	kg	8162		Auto Geofence
+45320	Axle 4 Load	kg	8163		Auto Geofence
+45330	Axle 5 Load	kg	8164		Auto Geofence
+45340	Control State Flags		8165		Auto Geofence
+45350	Agricultural Machinery Flags		8166		Auto Geofence
+45360	Harvesting Time	min	8167		Auto Geofence
+45370	Area of Harvest	mÂ²	8168		Auto Geofence
+45380	Mowing Efficiency	mÂ²/h	8169		Auto Geofence
+45390	Grain Mown Volume	kg	8170		Auto Geofence
+45400	Grain Moisture	%	8171		Auto Geofence
+45410	Harvesting Drum RPM	rpm	8172		Auto Geofence
+45420	Gap Under Harvesting Drum	mm	8173		Auto Geofence
+45430	Security State Flags		8174		Auto Geofence
+45440	Tachograph Total vehicle distance	m	8175		Auto Geofence
+45450	Trip Distance	m	8176		Auto Geofence
+45460	Tachograph Vehicle Speed	km/h	8177		Auto Geofence
+45470	Tachograph Driver Card Presence		8178		Auto Geofence
+45480	Driver 1 States		8179		Auto Geofence
+45490	Driver 2 States		8180		Auto Geofence
+45500	Driver 1 Continuous Driving Time	min	8181		Auto Geofence
+45510	Driver 2 Continuous Driving Time	min	8182		Auto Geofence
+45520	Driver 1 Cumulative Break Time	min	8183		Auto Geofence
+45530	Driver 2 Cumulative Break Time	min	8184		Auto Geofence
+45540	Driver 1 Selected Activity Duration	min	8185		Auto Geofence
+45550	Driver 2 Selected Activity Duration	min	8186		Auto Geofence
+45560	Driver 1 Cumulative Driving Time	min	8187		Auto Geofence
+45570	Driver 2 Cumulative Driving Time	min	8188		Auto Geofence
+45580	Driver 1 ID High		8189		Auto Geofence
+45590	Driver 1 ID Low		8190		Auto Geofence
+45600	Driver 2 ID High		8191		Auto Geofence
+45610	Driver 2 ID Low		8192		Auto Geofence
+45620	Battery Temperature	â	8193		Auto Geofence
+45630	Battery Level	%	8194		Auto Geofence
+45640	DTC Faults		8195		Auto Geofence
+45650	Slope Of Arm	Â°	8196		Auto Geofence
+45660	Rotation Of Arm	Â°	8197		Auto Geofence
+45670	Eject Of Arm	m	8198		Auto Geofence
+45680	Horizontal Distance Arm Vehicle	m	8199		Auto Geofence
+45690	Height Arm Above Ground	m	8200		Auto Geofence
+45700	Drill RPM	rpm	8201		Auto Geofence
+45710	Amount Of spread Salt Square Meter	g/mÂ²	8202		Auto Geofence
+45720	Battery Voltage	V	8203		Auto Geofence
+45730	Amount Of Spread Fine Grained Salt	T	8204		Auto Geofence
+45740	Amount Of Spread Coarse Grained Salt	T	8205		Auto Geofence
+45750	Amount Of Spread DiMix	T	8206		Auto Geofence
+45760	Amount Of Spread Coarse Grained Calcium	mÂ³	8207		Auto Geofence
+45770	Amount Of Spread Calcium Chloride	mÂ³	8208		Auto Geofence
+45780	Amount Of Spread Sodium Chloride	mÂ³	8209		Auto Geofence
+45790	Amount Of Spread Magnesium Chloride	mÂ³	8210		Auto Geofence
+45800	Amount Of Spread Gravel	T	8211		Auto Geofence
+45810	Amount Of Spread Sand	T	8212		Auto Geofence
+45820	Width Pouring Left	m	8213		Auto Geofence
+45830	Width Pouring Right	m	8214		Auto Geofence
+45840	Salt Spreader Working Hours	h	8215		Auto Geofence
+45850	Distance During Salting	km	8216		Auto Geofence
+45860	Load Weight	kg	8217		Auto Geofence
+45870	Retarder Load	%	8218		Auto Geofence
+45880	Cruise Time	min	8219		Auto Geofence
+45890	CNG Status		8236		AuthorizationIDList
+45900	CNG Used	kg	8237		AuthorizationIDList
+45910	CNG Level	%	8238		AuthorizationIDList
+45920	Oil Level				Custom scenarios
+45930	Fault Codes				AuthorizationIDList
+45940	Vehicles Range On Battery	m	8288		Custom scenarios
+45950	Vehicles Range On Additional Fuel	m	8289		Custom scenarios
+45960	VIN				Custom scenarios
+45970	Module ID 17B				AuthorizationIDList
+45980	Driver Seatbelt				dataacquisition
+45990	Front Passenger Seatbelt				dataacquisition
+46000	Brake switch				AuthorizationIDList
+46010	Wheel based speed	km/h			AuthorizationIDList
+46020	Cruise control active				AuthorizationIDList
+46030	Clutch switch				AuthorizationIDList
+46040	PTO state				AuthorizationIDList
+46050	Accelerator pedal position	%			AuthorizationIDList
+46060	Engine percent load	%			AuthorizationIDList
+46070	Engine total fuel used	liters			AuthorizationIDList
+46080	Fuel level	%			AuthorizationIDList
+46090	Engine speed	rpm			AuthorizationIDList
+46100	Axle 1 weight	kg			AuthorizationIDList
+46110	Axle 2 weight	kg			AuthorizationIDList
+46120	Axle 3 weight	kg			AuthorizationIDList
+46130	Axle 4 weight	kg			AuthorizationIDList
+46140	Axle 5 weight	kg			AuthorizationIDList
+46150	Axle 6 weight	kg			AuthorizationIDList
+46160	Axle 7 weight	kg			AuthorizationIDList
+46170	Axle 8 weight	kg			AuthorizationIDList
+46180	Axle 9 weight	kg			AuthorizationIDList
+46190	Axle 10 weight	kg			AuthorizationIDList
+46200	Axle 11 weight	kg			AuthorizationIDList
+46210	Axle 12 weight	kg			AuthorizationIDList
+46220	Axle 13 weight	kg			AuthorizationIDList
+46230	Axle 14 weight	kg			AuthorizationIDList
+46240	Axle 15 weight	kg			AuthorizationIDList
+46250	Engine total hours of operation	hours			AuthorizationIDList
+46260	VIN				AuthorizationIDList
+46270	SW-Version supported				AuthorizationIDList
+46280	Diagnostics supported				AuthorizationIDList
+46290	Requests supported				AuthorizationIDList
+46300	High resolution total vehicle distance	m			AuthorizationIDList
+46310	Service distance	km			AuthorizationIDList
+46320	Vehicle motion				AuthorizationIDList
+46330	Driver 1 working state				AuthorizationIDList
+46340	Driver 2 working state				AuthorizationIDList
+46350	Vehicle overspeed				AuthorizationIDList
+46360	Driver 1 time related states				AuthorizationIDList
+46370	Driver 2 time related states				AuthorizationIDList
+46380	Driver 1 card				AuthorizationIDList
+46390	Driver 2 card				AuthorizationIDList
+46400	Direction indicator				AuthorizationIDList
+46410	Tachograph performance				AuthorizationIDList
+46420	Handling information				AuthorizationIDList
+46430	System event				AuthorizationIDList
+46440	Tachograph vehicle speed	km/h			AuthorizationIDList
+46450	Engine coolant temperature	â			AuthorizationIDList
+46460	Ambient air temperature	â			AuthorizationIDList
+46470	Driver 1 identification				AuthorizationIDList
+46480	Driver 2 identification				AuthorizationIDList
+46490	Fuel rate	liters/h			AuthorizationIDList
+46500	Instantaneous fuel economy	km/liter			AuthorizationIDList
+46510	PTO Drive Engagement				AuthorizationIDList
+46520	High resolution engine total fuel used	liter			AuthorizationIDList
+46530	Combined vehicle weight	kg			AuthorizationIDList
+46540	Brake pedal position	%			Network Settings
+46550	AdBlue Status				SMS Events
+46560	Fuel Level 2	%			Custom scenarios
+46570	Engine MIL Indicator				Custom scenarios
+46580	Tell Tale ID0				Network Settings
+46590	Tell Tale ID1				Network Settings
+46600	Tell Tale ID2				Network Settings
+46610	Tell Tale ID3				Network Settings
+46620	Cruise active duration	s			LATgroup IO
+46630	FMS braking count				LATgroup IO
+46640	ACC braking count				LATgroup IO
+46650	Fuel during PTO	liters			LATgroup IO
+46660	Fuel at idle	liters			LATgroup IO
+46670	Driving duration	minutes			LATgroup IO
+46680	Parking Brake				RPM
+46690	Service Air Brake Pressure 1				RPM
+46700	Service Air Brake Pressure 2				RPM
+46710	Selected Gear				RPM
+46720	Current Gear				RPM
+46730	Bellow Pressure Front Left				RPM
+46740	Bellow Pressure Front Right				RPM
+46750	Bellow Pressure Rear Left				RPM
+46760	Bellow Pressure Rear Right				RPM
+46770	Transmission Oil Temperature				RPM
+46780	Door Status				RPM
+46790	Actual retader % torque	%			Manual CAN Requests
+46800	Parking brake switch				Manual CAN Requests
+46810	AdBlue level	%			Network Settings
+46820	SSF Factory Alarm Actuated		8731		CAN Adapter
+46830	Active DM1 List				Manual CAN Requests
+46840	SSF Signal Close Factory Remote		8733		CAN Adapter
+46850	Active DM2 List				Manual CAN Requests
+46860	Tell Tale ID4				ADAS
+46870	Water In Fuel				Manual CAN Requests
+46880	Engine Oil Temp	â			Manual CAN Requests
+46890	Engine Oil Pressure	kPa			Manual CAN Requests
+46900	Transmission Oil Temp	â			Manual CAN Requests
+46910	Cab Interior Temp	â			Manual CAN Requests
+46920	Fuel Type				Manual CAN Requests
+46930	Tire Location				Manual CAN Requests
+46940	Tire Pressure	kPa			Manual CAN Requests
+46950	Fuel Supply Estimated Remaining Dist	km			Manual CAN Requests
+46960	CNG Consumption				Manual CAN Requests
+46970	CSF Additional Front Lights		8746		CAN Adapter
+46980	CSF Additional Rear Lights		8747		CAN Adapter
+46990	CSF Light Signal		8748		CAN Adapter
+47000	CAN0				SMS Events
+47010	CAN1				SMS Events
+47020	CAN2				SMS Events
+47030	CAN3				SMS Events
+47040	CAN4				SMS Events
+47050	CAN5				SMS Events
+47060	CAN6				SMS Events
+47070	CAN7				SMS Events
+47080	CAN8				SMS Events
+47090	CAN9				SMS Events
+47100	CSF PTO		8759		CAN Adapter
+47110	CSF Front Differential Locked		8760		CAN Adapter
+47120	CSF Rear Differential Locked		8761		CAN Adapter
+47130	CSF Central Differential 4HI Locked		8762		CAN Adapter
+47140	CSF Central Differential 4LO Locked		8763		CAN Adapter
+47150	CSF Trailer Axle 1 Lift Active		8764		CAN Adapter
+47160	CSF Trailer Axle 2 Lift Active		8765		CAN Adapter
+47170	ISF Check Engine Indicator		8766		CAN Adapter
+47180	ISF ABS Indicator		8767		CAN Adapter
+47190	ISF ESP Indicator		8768		CAN Adapter
+47200	CAN0				SMS Events
+47210	CAN1				SMS Events
+47220	CAN2				SMS Events
+47230	CAN3				SMS Events
+47240	CAN4				SMS Events
+47250	CAN5				SMS Events
+47260	CAN6				SMS Events
+47270	CAN7				SMS Events
+47280	CAN8				SMS Events
+47290	CAN9				SMS Events
+47300	KIP Digital input 1				dataacquisition
+47310	KIP Digital input 2				dataacquisition
+47320	KIP Digital input 3				dataacquisition
+47330	KIP Digital input 4				dataacquisition
+47340	KIP Digital input 5				dataacquisition
+47350	KIP Digital input 6				dataacquisition
+47360	KIP Digital input 7				dataacquisition
+47370	KIP Digital input 8				dataacquisition
+47380	KIP Analog input 1				dataacquisition
+47390	KIP Analog input 2				dataacquisition
+47400	KIP Analog input 3				dataacquisition
+47410	KIP Analog input 4				dataacquisition
+47420	KIP Frequency input 1				dataacquisition
+47430	KIP Frequency input 2				dataacquisition
+47440	ISF Hydraulic System High Temperature Indicator		8793		CAN Adapter
+47450	ISF Oil Overflow In Hydraulic Chamber Indicator		8794		CAN Adapter
+47460	ISF Clogged Air Filter Indicator		8795		CAN Adapter
+47470	ISF Clogged Fuel Filter Indicator		8796		CAN Adapter
+47480	ISF Water in Fuel Indicator		8797		CAN Adapter
+47490	ISF Clogged Brake System Filter Indicator		8798		CAN Adapter
+47500	Timestamp				AuthorizationIDList
+47510	Drive recognize				AuthorizationIDList
+47520	Overspeeding				AuthorizationIDList
+47530	Vehicle speed				AuthorizationIDList
+47540	Odometer				AuthorizationIDList
+47550	Distance				AuthorizationIDList
+47560	VIN				AuthorizationIDList
+47570	VRN				AuthorizationIDList
+47580	Driver 1 working state				AuthorizationIDList
+47590	Driver 2 working state				AuthorizationIDList
+47600	Driver 1 card				AuthorizationIDList
+47610	Driver 2 card				AuthorizationIDList
+47620	Driver 1 Time related states				AuthorizationIDList
+47630	Driver 2 Time related states				AuthorizationIDList
+47640	Driver 1 identification number				AuthorizationIDList
+47650	Driver 2 identification number				AuthorizationIDList
+47660	Card 1 issuing member state				AuthorizationIDList
+47670	Card 2 issuing member state				AuthorizationIDList
+47680	Driver 1 Continous Drive Time				AuthorizationIDList
+47690	Driver 2 Continous Drive Time				AuthorizationIDList
+47700	Driver 1 Cumulative Break Time				AuthorizationIDList
+47710	Driver 2 Cumulative Break Time				AuthorizationIDList
+47720	Driver 1 Selected activity duration				AuthorizationIDList
+47730	Driver 2 Selected activity duration				AuthorizationIDList
+47740	Driver 1 Cumulative Driving Time				AuthorizationIDList
+47750	Driver 2 Cumulative Driving Time				AuthorizationIDList
+47760	ASF Rear Power Take-off		8825		CAN Adapter
+47770	Data Source				AuthorizationIDList
+47780	Drivers hours rules pre warning time delay				Network Settings
+47790	Out of scope condition				Network Settings
+47800	Next calibration date				Network Settings
+47810	Driver1 end of last daily rest period				Network Settings
+47820	Driver1 end of last weekly rest period				Network Settings
+47830	Driver1 end of second last weekly rest period				Network Settings
+47840	Driver1 current daily driving time				Network Settings
+47850	Driver1 current weekly driving time				Network Settings
+47860	Driver1 time left until new daily rest period				Network Settings
+47870	Driver1 number of times 9h daily driving times exceeded				Network Settings
+47880	Driver2 end of last daily rest period				Network Settings
+47890	Driver2 end of last weekly rest period				Network Settings
+47900	Driver2 end of second last weekly rest period				Network Settings
+47910	Driver2 current daily driving time				Network Settings
+47920	Driver2 current weekly driving time				Network Settings
+47930	Driver2 time left until new daily rest period				Network Settings
+47940	Driver2 number of times 9h daily driving times exceeced				Network Settings
+47950	Driver 1 Name				Network Settings
+47960	Driver 1 Surname				Network Settings
+47970	Driver 2 Name				Network Settings
+47980	Driver 2 Surname				Network Settings
+47990	Driver1 Time Left Until New Weekly Rest Period				Network Settings
+48000	Driver2 Time Left Until New Weekly Rest Period				Network Settings
+48010	Driver1 Minimum Daily Rest				Network Settings
+48020	Driver2 Minimum Daily Rest				Network Settings
+48030	Driver1 Minimum Weekly Rest				Network Settings
+48040	Driver2 Minimum Weekly Rest				Network Settings
+48050	Driver1 Duration Of Next Break Rest				Network Settings
+48060	Driver2 Duration Of Next Break Rest				Network Settings
+48070	Driver1 Remain Time Until Next Break Or Rest				Network Settings
+48080	Driver2 Remain Time Until Next Break Or Rest				Network Settings
+48090	USF Unloading From The Hopper		8858		CAN Adapter
+48100	USF Low Salt Level In Container Indicator		8859		CAN Adapter
+48110	USF Low Water Level In Container Indicator		8860		CAN Adapter
+48120	USF Chemicals		8861		CAN Adapter
+48130	USF Compressor		8862		CAN Adapter
+48140	USF Water Valve Is Opened		8863		CAN Adapter
+48150	USF Cabin Moved Up Status Active		8864		CAN Adapter
+48160	USF Cabin Moved Down Status Active		8865		CAN Adapter
+48170	CiSF Section 1 Presence Of Fluid In The Downpipe		8866		CAN Adapter
+48180	CiSF Section 1 Filled		8867		CAN Adapter
+48190	CiSF Section 1 Overfilled		8868		CAN Adapter
+48200	Fuel Level	%			Network Settings
+48210	Battery Voltage (V*10)	*10 V			Custom scenarios
+48220	Electric Minutes (HME)	Minute			Custom scenarios
+48230	Reefer work Minutes (HMT)	Minute			Custom scenarios
+48240	Compressor Motor Work Minutes (HM)	Minute			Custom scenarios
+48250	Zone 1 Compartment State				Network Settings
+48260	Alarm 1				Custom scenarios
+48270	Zone 1 Return Air Temperature 1	*10 Â°C			Custom scenarios
+48280	Zone 1 Supply Air Temperature 1				Custom scenarios
+48290	Zone 1 Set Temperature	*10 Â°C			Custom scenarios
+48300	Zone 1 Evaparator Coil Temperature	*10 Â°C			Network Settings
+48310	Zone 1 Return Air Temperature 2	*10 Â°C			Custom scenarios
+48320	Zone 1 Supply Air Temperature 2	*10 Â°C			Custom scenarios
+48330	Zone 1 Operating Mode				Network Settings
+48340	Zone 2 Compartment State				Network Settings
+48350	Alarm 2				Custom scenarios
+48360	Zone 2 Return Air Temperature 1	*10 Â°C			Custom scenarios
+48370	Zone 2 Supply Air Temperature 1	*10 Â°C			Custom scenarios
+48380	Zone 2 Set Temperature	*10 Â°C			Custom scenarios
+48390	Zone 2 Evaparator Coil Temperature	*10 Â°C			Network Settings
+48400	Zone 2 Return air Temperature 2	*10 Â°C			Network Settings
+48410	Zone 2 Supply air Temperature 2	*10 Â°C			Network Settings
+48420	Power Mode				Network Settings
+48430	Zone 3 Compartment State				Network Settings
+48440	Alarm 3				Custom scenarios
+48450	Zone 3 Return air Temperature 1	*10 Â°C			Network Settings
+48460	Zone 3 Supply air Temperature 1	*10 Â°C			Network Settings
+48470	Zone 3 setpoint	*10 Â°C			Network Settings
+48480	Zone 3 Evaparator Coil Temperature	*10 Â°C			Network Settings
+48490	Zone 3 Return air Temperature 2	*10 Â°C			Network Settings
+48500	Zone 3 Supply air Temperature 2	*10 Â°C			Network Settings
+48510	Ambient Air Temperature	*10 Â°C			Custom scenarios
+48520	Compressor Coolant Temperature	*10 Â°C			Custom scenarios
+48530	Error Count				Custom scenarios
+48540	Compressor RPM				Custom scenarios
+48550	Compressor Config				Custom scenarios
+48560	Door Status				Custom scenarios
+48570	Installation Serial				Custom scenarios
+48580	Trailer Registration Number				Custom scenarios
+48590	Speed Mode				Network Settings
+48600	Manufacturer.ID				Network Settings
+48610	Battery state flags				Network Settings
+48620	Fuel state flags				Network Settings
+48630	Maintenance1 Hours	Hours			Network Settings
+48640	Maintenance2 Hours	Hours			Network Settings
+48650	Maintenance3 Hours	Hours			Network Settings
+48660	Maintenance4 Hours	Hours			Network Settings
+48670	Maintenance5 Hours	Hours			Network Settings
+48680	Run Mode				Network Settings
+48690	Error Codes				Network Settings
+48700	Digital sensor 1				Network Settings
+48710	Digital sensor 2				Network Settings
+48720	Digital sensor 3				Network Settings
+48730	Digital sensor 4				Network Settings
+48740	Analog sensor 1	mV			Network Settings
+48750	Analog sensor 2	mV			Network Settings
+48760	Analog sensor 3	mV			Network Settings
+48770	Temperature Probe 1	*10 Â°C			Network Settings
+48780	Temperature Probe 2	*10 Â°C			Network Settings
+48790	Temperature Probe 3	*10 Â°C			Network Settings
+48800	Temperature Probe 4	*10 Â°C			Network Settings
+48810	Temperature Probe 5	*10 Â°C			Network Settings
+48820	Temperature Probe 6	*10 Â°C			Network Settings
+48830	Temperature 1	*10 Â°C			Network Settings
+48840	Temperature 2	*10 Â°C			Network Settings
+48850	Temperature 3	*10 Â°C			Network Settings
+48860	Temperature 4	*10 Â°C			Network Settings
+48870	Status 1				Network Settings
+48880	Status 2				Network Settings
+48890	Status 3				Network Settings
+48900	Status 4				Network Settings
+48910	Alarm 1				Network Settings
+48920	Alarm 2				Network Settings
+48930	Alarm 3				Network Settings
+48940	Alarm 4				Network Settings
+48950	Input 1				Network Settings
+48960	Input 2				Network Settings
+48970	Input 3				Network Settings
+48980	Input 4				Network Settings
+48990	Input 5				Network Settings
+49000	Input 6				Network Settings
+49010	Setpoint 1				Network Settings
+49020	Setpoint 2				Network Settings
+49030	Setpoint 3				Network Settings
+49040	Temperature 5				Network Settings
+49050	Temperature 6				Network Settings
+49060	Temperature 7				Network Settings
+49070	Temperature 8				Network Settings
+49080	Humidity				Network Settings
+49090	Status 5				Network Settings
+49100	Status 6				Network Settings
+49110	Status 7				Network Settings
+49120	Status 8				Network Settings
+49130	Alarm 5				Network Settings
+49140	Alarm 6				Network Settings
+49150	Alarm 7				Network Settings
+49160	Alarm 8				Network Settings
+50000	Ignition		8000		Auto Geofence
+50010	Movement		8001		Auto Geofence
+50020	Data Mode		8002		Auto Geofence
+50030	GSM Signal		8003		Auto Geofence
+50040	Sleep Mode		8004		Auto Geofence
+50050	GNSS Status		8005		Auto Geofence
+50060	GNSS PDOP		8006		Auto Geofence
+50070	GNSS HDOP		8007		Auto Geofence
+50080	External Voltage	mV	8008		Auto Geofence
+50090	Speed	km/h	8009		Auto Geofence
+50100	GSM Cell ID		8010		Auto Geofence
+50110	GSM Area Code		8011		Auto Geofence
+50120	Battery Voltage	mV	8012		Auto Geofence
+50130	Battery Current	mA	8013		Auto Geofence
+50140	Active GSM Operator		8014		Auto Geofence
+50150	Trip Odometer	m	8015		Auto Geofence
+50160	Total Odometer	m	8016		Auto Geofence
+50170	Digital Input 1		8017		Auto Geofence
+50180	Analog Input 1	mV			Auto Geofence
+50190	Digital Ouput 1				Auto Geofence
+50200	Fuel Used GNSS	ml	8020		Auto Geofence
+50210	Fuel Rate GNSS	l/h*100	8021		Auto Geofence
+50220	Axis X	mG	8022		Auto Geofence
+50230	Axis Y	mG	8023		Auto Geofence
+50240	Axis Z	mG	8024		Auto Geofence
+50250	ICCID		8069		Auto Geofence
+50260	SD Status		8070		Auto Geofence
+50270	Digital Input 2		8116		Auto Geofence
+50280	Digital Input 3		8117		Auto Geofence
+50290	Analog Input 2	mV			Auto Geofence
+50300	Digital Ouput 2				Auto Geofence
+50310	Dallas Temperature 1	&#8451;	8120		Auto Geofence
+50320	Dallas Temperature 2	&#8451;	8121		Auto Geofence
+50330	Dallas Temperature 3	&#8451;	8122		Auto Geofence
+50340	Dallas Temperature 4	&#8451;	8123		Auto Geofence
+50350	Dallas Temperature ID 1		8124		Auto Geofence
+50360	Dallas Temperature ID 2		8125		Auto Geofence
+50370	Dallas Temperature ID 3		8126		Auto Geofence
+50380	Dallas Temperature ID 4		8127		Auto Geofence
+50390	iButton		8128		Auto Geofence
+50400	RFID		8129		Auto Geofence
+50410	LLS 1 Fuel Level	kvants or l	8130		Auto Geofence
+50420	LLS 2 Fuel Level	kvants or l	8131		Auto Geofence
+50430	LLS 3 Fuel Level	kvants or l	8132		Auto Geofence
+50440	LLS 4 Fuel Level	kvants or l	8133		Auto Geofence
+50450	LLS 5 Fuel Level	kvants or l	8134		Auto Geofence
+50460	LLS 1 Temperature	&#8451;	8135		Auto Geofence
+50470	LLS 2 Temperature	&#8451;	8136		Auto Geofence
+50480	LLS 3 Temperature	&#8451;	8137		Auto Geofence
+50490	LLS 4 Temperature	&#8451;	8138		Auto Geofence
+50500	LLS 5 Temperature	&#8451;	8139		Auto Geofence
+50510	Eco Score		8220		Auto Geofence
+50520	User ID		8221		Auto Geofence
+50530	BLE Temp #1	â	8223		Auto Geofence
+50540	BLE Temp #2	â	8224		Auto Geofence
+50550	BLE Temp #3	â	8225		Auto Geofence
+50560	BLE Temp #4	â	8226		Auto Geofence
+50570	BLE Battery #1	%	8227		Auto Geofence
+50580	BLE Battery #2	%	8228		Auto Geofence
+50590	BLE Battery #3	%	8229		Auto Geofence
+50600	BLE Battery #4	%	8230		Auto Geofence
+50610	BLE Humidity #1	%RH	8231		Auto Geofence
+50620	BLE Humidity #2	%RH	8232		Auto Geofence
+50630	BLE Humidity #3	%RH	8233		Auto Geofence
+50640	BLE Humidity #4	%RH	8234		Auto Geofence
+50650	Network Type				Auto Geofence
+50660	Digital Input 4				Auto Geofence
+50670	Analog Input 3	mV			Auto Geofence
+50680	Analog Input 4	mV			Auto Geofence
+50690	Digital Ouput 3				Auto Geofence
+50700	Digital Output 4				Auto Geofence
+50710	RFID2				Auto Geofence
+50720	1Wire Sensor Temperature 5	â			Auto Geofence
+50730	1Wire Sensor Temperature 6	â			Auto Geofence
+50740	1Wire Sensor Temperature ID 5				Auto Geofence
+50750	1Wire Sensor Temperature ID 6				Auto Geofence
+50760	PCB Temperature	â			Auto Geofence
+50770	Fuel Counter				Auto Geofence
+50780	Ultrasonic UL202 Fuel Level 1				Auto Geofence
+50790	Ultrasonic UL202 Fuel Level 2				Auto Geofence
+50800	Ultrasonic UL202 Status 1				Auto Geofence
+50810	Ultrasonic UL202 Status 2				Auto Geofence
+50820	IMSI				Auto Geofence
+50830	IXDT CMD #0				MODBUS Settings
+50840	IXDT CMD #1				MODBUS Settings
+50850	IXDT CMD #2				MODBUS Settings
+50860	IXDT CMD #3				MODBUS Settings
+50870	IXDT CMD #4				MODBUS Settings
+50880	IXDT CMD #5				MODBUS Settings
+50890	IXDT CMD #6				MODBUS Settings
+50900	IXDT CMD #7				MODBUS Settings
+50910	IXDT CMD #8				MODBUS Settings
+50920	IXDT CMD #9				MODBUS Settings
+50930	IXDT CMD #10				MODBUS Settings
+50940	IXDT CMD #11				MODBUS Settings
+50950	IXDT CMD #12				MODBUS Settings
+50960	IXDT CMD #13				MODBUS Settings
+50970	IXDT CMD #14				MODBUS Settings
+50980	IXDT CMD #15				MODBUS Settings
+50990	Driving Without Card				INmatix
+51000	Record Counter				Network Settings
+51010	Impulse Counter 2				Network Settings
+51020	Temperature Probe 1				Network Settings
+51030	Temperature Probe 2				Network Settings
+51040	Temperature Probe 3				Network Settings
+51050	Temperature Probe 4				Network Settings
+51060	Temperature Probe 5				Network Settings
+51070	Temperature Probe 6				Network Settings
+51080	Passenger iButton				dataacquisition
+51090	BLE 1 Custom 1				Network Settings
+51100	BLE 2 Custom 1				Network Settings
+51110	BLE 3 Custom 1				Network Settings
+51120	BLE 4 Custom 1				Network Settings
+51130	BLE LLS Fuel #1	kvants			Network Settings
+51140	BLE LLS Fuel #2	kvants			Network Settings
+51150	BLE LLS Fuel #3	kvants			Network Settings
+51160	BLE LLS Fuel #4	kvants			Network Settings
+51170	BLE Luminosity #1	lx			Network Settings
+51180	BLE Luminosity #2	lx			Network Settings
+51190	BLE Luminosity #3	lx			Network Settings
+51200	BLE Luminosity #4	lx			Network Settings
+51210	BLE LLS Frequency #1				Network Settings
+51220	BLE LLS Frequency #2				Network Settings
+51230	BLE LLS Frequency #3				Network Settings
+51240	BLE LLS Frequency #4				Network Settings
+51250	BLE Illumination #3		8328		Beacon List
+51260	BLE Illumination #4		8329		Beacon List
+51680	Digital Output 3		8371		CAN Adapter
+51690	Ground Sense		8372		CAN Adapter
+51700	Axl Calibration Status		8373		CAN Adapter
+51730	Coordinates ISO6709		8376		CAN Adapter
+51740	BLE RFID #1		8381		Network Settings
+51750	BLE RFID #2		8382		Network Settings
+51760	BLE RFID #3		8383		Network Settings
+51770	BLE RFID #4		8384		Network Settings
+51780	BLE Button1 state #1		8385		Network Settings
+51790	BLE Button1 state #2		8386		Network Settings
+51800	BLE Button1 state #3		8387		Network Settings
+51810	BLE Button1 state #4		8388		Network Settings
+51820	BLE Button2 state #1		8389		Network Settings
+51830	BLE Button2 state #2		8390		Network Settings
+51840	BLE Button2 state #3		8391		Network Settings
+51850	BLE Button2 state #4		8392		Network Settings
+51860	BLE 1 Custom 2				Network Settings
+51870	BLE 1 Custom 3				Network Settings
+51880	BLE 1 Custom 4				Network Settings
+51890	BLE 1 Custom 5				Network Settings
+51900	BLE 2 Custom 2				Network Settings
+51910	BLE 2 Custom 3				Network Settings
+51920	BLE 2 Custom 4				Network Settings
+51930	BLE 2 Custom 5				Network Settings
+51940	BLE 3 Custom 2				Network Settings
+51950	BLE 3 Custom 3				Network Settings
+51960	BLE 3 Custom 4				Network Settings
+51970	BLE 3 Custom 5				Network Settings
+51980	BLE 4 Custom 2				Network Settings
+51990	BLE 4 Custom 3				Network Settings
+52000	BLE 4 Custom 4				Network Settings
+52010	BLE 4 Custom 5				Network Settings
+52020	1Wire Sensor Humidity 1	%RH			Network Settings
+52030	1Wire Sensor Humidity 2	%RH			Network Settings
+52040	1Wire Sensor Humidity 3	%RH			Network Settings
+52050	1Wire Sensor Humidity 4	%RH			Network Settings
+52060	1Wire Sensor Humidity 5	%RH			Network Settings
+52070	1Wire Sensor Humidity 6	%RH			Network Settings
+52080	Driver Card Expiration Date		8417		Beacon List
+52090	Driver Card Place Of Issue		8418		Beacon List
+52100	Ignition On Counter		8419		Beacon List
+52150	Impulse Frequency 1				Network Settings
+52160	Impulse RPM 1				Network Settings
+52170	Impulse Frequency 2				Network Settings
+52180	Impulse RPM 2				Network Settings
+52190	Eco Score				Network Settings
+52220	COM1 Communication status				RPM
+52230	COM2 Communication status				RPM
+52240	Frequency DIN2	HzÃ10	8579		Network Settings
+52250	No SIM Err Counter				Network Settings
+52290	Filtered Gauge 1				AlertGasoil
+52300	Filtered Gauge 2				AlertGasoil
+52310	Previous fuel				AlertGasoil
+52320	Current fuel				AlertGasoil
+52330	Timespan				AlertGasoil
+52340	Ignition Work Time	s			Network Settings
+52350	LTE Cell Id				Network Settings
+52360	Battery 2	%			RPM
+52370	Battery 3	%			RPM
+52380	Battery 4	%			RPM
+52390	Battery 5	%			RPM
+52400	Battery 6	%			RPM
+52410	Humidity 1	%			RPM
+52420	Humidity 2	%			RPM
+52430	Humidity 3	%			RPM
+52440	Humidity 4	%			RPM
+52450	Humidity 5	%			RPM
+52460	Humidity 6	%			RPM
+52500	Screen Time	s			FMS PGN SRC
+52510	Screen Off				FMS PGN SRC
+52520	Set Cam 1	0.1â			FMS PGN SRC
+52530	Intake Cam 1	0.1â			FMS PGN SRC
+52540	Return Cam 1	0.1â			FMS PGN SRC
+52550	Set Cam 2	0.1â			FMS PGN SRC
+52560	Intake Cam 2	0.1â			FMS PGN SRC
+52570	Return Cam 2	0.1â			FMS PGN SRC
+52580	Ambient Temperature	0.1â			FMS PGN SRC
+52590	Engine Temperature	0.1â			FMS PGN SRC
+52600	Engine Time	h			FMS PGN SRC
+52610	Engine RPM	rpm			FMS PGN SRC
+52620	Work Time	h			FMS PGN SRC
+52630	Work Mode				FMS PGN SRC
+52640	Defrost Mode				FMS PGN SRC
+52650	Voltage	mV			FMS PGN SRC
+52660	Amperage	mA			FMS PGN SRC
+52670	Tag Name				FMS PGN SRC
+52680	Trailer VIN				FMS PGN SRC
+52690	Trailer Odometer	km			FMS PGN SRC
+52700	DTC List				FMS PGN SRC
+52710	LLS 16 Fuel Level		8562		Network Settings
+52720	LLS 6 Temperature		8563		Network Settings
+52730	LLS 7 Temperature		8564		Network Settings
+52740	LLS 8 Temperature		8565		Network Settings
+52750	LLS 9 Temperature		8566		Network Settings
+52760	LLS 10 Temperature		8567		Network Settings
+52770	LLS 11 Temperature		8568		Network Settings
+52780	LLS 12 Temperature		8569		Network Settings
+52790	LLS 13 Temperature		8570		Network Settings
+52800	LLS 14 Temperature		8571		Network Settings
+52810	LLS 15 Temperature		8572		Network Settings
+52820	LLS 16 Temperature		8573		Network Settings
+52870	Impulse Counter 3				Network Settings
+52880	Impulse Counter 4				Network Settings
+52890	Impulse Frequency 3				Network Settings
+52900	Impulse RPM 3				Network Settings
+52910	Impulse Frequency 4				Network Settings
+52920	Impulse RPM 4				Network Settings
+52930	Analog Input Raw 1	mV			AlertGasoil
+52940	Analog Input Raw 2	mV			AlertGasoil
+52950	Analog Input Raw 3	mV			AlertGasoil
+52960	Analog Input Raw 4	mV			AlertGasoil
+52970	Sensor 1 Status				AlertGasoil
+52980	UL212 (P19) Fuel Volume 1	L/10			Manual CAN Requests
+52990	UL212 (P19) Fuel Level 1	mm/10			Manual CAN Requests
+53000	UL212 (P19) Fuel Volume 2	L/10			Manual CAN Requests
+53010	UL212 (P19) Fuel Level 2	mm/10			Manual CAN Requests
+53020	Digital Input 2 Work Time	s			Data Acquisition
+53030	Digital Input 3 Work Time	s			Data Acquisition
+53040	Battery Level	%			NMEA2000 I/O
+53050	Location source				NMEA2000 I/O
+53060	NMEA Fix Type				NMEA2000 I/O
+53130	EYE Temperature #1		8598	FirstGroupEye	CAN Adapter
+53140	EYE Temperature #2		8599	SecondGroupEye	CAN Adapter
+53150	EYE Temperature #3		8600	ThirdGroupEye	CAN Adapter
+53160	EYE Temperature #4		8601	FourthGroupEye	CAN Adapter
+53170	EYE Humidity #1		8602	FirstGroupEye	CAN Adapter
+53180	EYE Humidity #2		8603	SecondGroupEye	CAN Adapter
+53190	EYE Humidity #3		8604	ThirdGroupEye	CAN Adapter
+53200	EYE Humidity #4		8605	FourthGroupEye	CAN Adapter
+53210	EYE Magnet #1		8606	FirstGroupEye	CAN Adapter
+53220	EYE Magnet #2		8607	SecondGroupEye	CAN Adapter
+53230	EYE Magnet #3		8608	ThirdGroupEye	CAN Adapter
+53240	EYE Magnet #4		8609	FourthGroupEye	CAN Adapter
+53250	EYE Movement #1		8610	FirstGroupEye	CAN Adapter
+53260	EYE Movement #2		8611	SecondGroupEye	CAN Adapter
+53270	EYE Movement #3		8612	ThirdGroupEye	CAN Adapter
+53280	EYE Movement #4		8613	FourthGroupEye	CAN Adapter
+53290	EYE Pitch #1		8614	FirstGroupEye	CAN Adapter
+53300	EYE Pitch #2		8615	SecondGroupEye	CAN Adapter
+53310	EYE Pitch #3		8616	ThirdGroupEye	CAN Adapter
+53320	EYE Pitch #4		8617	FourthGroupEye	CAN Adapter
+53330	EYE Low Battery #1		8618	FirstGroupEye	CAN Adapter
+53340	EYE Low Battery #2		8619	SecondGroupEye	CAN Adapter
+53350	EYE Low Battery #3		8620	ThirdGroupEye	CAN Adapter
+53360	EYE Low Battery #4		8621	FourthGroupEye	CAN Adapter
+53370	EYE Battery Voltage #1		8622	FirstGroupEye	CAN Adapter
+53380	EYE Battery Voltage #2		8623	SecondGroupEye	CAN Adapter
+53390	EYE Battery Voltage #3		8624	ThirdGroupEye	CAN Adapter
+53400	EYE Battery Voltage #4		8624	FourthGroupEye	CAN Adapter
+53410	EYE Roll #1		8920	FirstGroupEye	CAN Adapter
+53420	EYE Roll #2		8921	SecondGroupEye	CAN Adapter
+53430	EYE Roll #3		8922	ThirdGroupEye	CAN Adapter
+53440	EYE Roll #4		8923	FourthGroupEye	CAN Adapter
+53450	Movement Count #1		8924	FirstGroupEye	CAN Adapter
+53460	Movement Count #2		8925	SecondGroupEye	CAN Adapter
+53470	Movement Count #3		8926	ThirdGroupEye	CAN Adapter
+53480	Movement Count #4		8927	FourthGroupEye	CAN Adapter
+53790	ConnectivityQuality				Network Settings
+53800	CurrentLTEBand		8966		Network Settings
+53840	Magnet Count #1		8968	FirstGroupEye	CAN Adapter
+53850	Magnet Count #2		8969	SecondGroupEye	CAN Adapter
+53860	Magnet Count #3		8970	ThirdGroupEye	CAN Adapter
+53870	Magnet Count #4		8971	FourthGroupEye	CAN Adapter
+53920	IMEI IO				ADAS
+54000	Rdy				Data Acquisition
+54010	Active				Data Acquisition
+54020	Move				Data Acquisition
+54030	WU				Data Acquisition
+54040	CU				Data Acquisition
+54050	WW				Data Acquisition
+54060	Bin				Data Acquisition
+54220	Axl Calibration State				Network Settings
+70000	Timestamp				AuthorizationIDList
+70010	Drive recognize				AuthorizationIDList
+70020	Overspeeding				AuthorizationIDList
+70030	Vehicle speed				AuthorizationIDList
+70040	Odometer				AuthorizationIDList
+70050	Trip Distance				AuthorizationIDList
+70060	VIN				AuthorizationIDList
+70070	VRN				AuthorizationIDList
+70080	Driver 1 working state				AuthorizationIDList
+70090	Driver 2 working state				AuthorizationIDList
+70100	Driver 1 card				AuthorizationIDList
+70110	Driver 2 card				AuthorizationIDList
+70120	Driver 1 Time related states				AuthorizationIDList
+70130	Driver 2 Time related states				AuthorizationIDList
+70140	Driver 1 identification number				AuthorizationIDList
+70150	Driver 2 identification number				AuthorizationIDList
+70160	Card 1 issuing member state				AuthorizationIDList
+70170	Card 2 issuing member state				AuthorizationIDList
+70180	Calculated Driver State				INmatix
+73000	ME Sound Type				SMS Events
+73010	ME Pedestrians in DZ				SMS Events
+73020	ME Pedestrians in FCW				SMS Events
+73030	ME Time Indicator				SMS Events
+73040	ME Error Valid				SMS Events
+73050	ME Error Code				SMS Events
+73060	ME Zero Speed				SMS Events
+73070	ME Headway Valid				SMS Events
+73080	ME Headway Measurement				SMS Events
+73090	ME LDW Off				SMS Events
+73100	ME Left LDW On				SMS Events
+73110	ME Right LDW On				SMS Events
+73120	ME Maintenance				SMS Events
+73130	ME Fail Safe				SMS Events
+73140	ME FCW On				SMS Events
+73150	ME TSR Enabled				SMS Events
+73160	ME Headway Warning Repeat Enabled				SMS Events
+73170	ME Headway Warning Level				SMS Events
+73180	ME TSR Warning Level				SMS Events
+73190	ME Tamper Alert				SMS Events
+73200	ME High Beam				SMS Events
+73210	ME Low Beam				SMS Events
+73220	ME Wipers				SMS Events
+73230	ME Right Signal				SMS Events
+73240	ME Left Signal				SMS Events
+73250	ME Brake Signal				SMS Events
+73260	ME Wipers Available				SMS Events
+73270	ME Low Beam Available				SMS Events
+73280	ME High Beam Available				SMS Events
+73290	ME Speed Available				SMS Events
+73300	ME Speed				SMS Events
+73310	ME TSR 01				SMS Events
+73320	ME TSR 02				SMS Events
+73330	ME TSR 03				SMS Events
+73340	ME TSR 04				SMS Events
+73350	ME TSR 05				SMS Events
+73360	ME TSR 06				SMS Events
+73370	ME TSR 07				SMS Events
+73380	ME TSR VO				SMS Events
+74000	Driver1 Remaining Current Driving Time				Network Settings
+74010	Driver1 Remaining Driving Time On Current Shift				Network Settings
+74020	Driver1 Remaining Driving Time Of Current Week				Network Settings
+74030	Driver1 Open Compensation In The Last Week				Network Settings
+74040	Driver1 Open Compensation In Week Before Last				Network Settings
+74050	Driver1 Open Compensation In 2nd Week Before Last				Network Settings
+74060	Driver1 Additional Information				Network Settings
+74070	Driver1 Remaining Time Current Break Rest				Network Settings
+74080	Driver1 Time Left Until Next Driving Period				Network Settings
+74090	Driver1 Duration Of Next Driving Period				Network Settings
+74100	Ferry/Train Status				ADAS
+74110	Border Crossing Info				Network Settings
+74120	K-Line Driver Privacy				ADAS
+74130	Vehicle Load Type				ADAS
+74140	Driver1 Last Load/Unload Operation Time				ADAS
+74150	Driver2 Last Load/Unload Operation Time				ADAS
+74160	Drivers Private Data Consent				ADAS
+74170	Driver1 Card Expiry Date				ADAS
+74180	Driver2 Card Expiry Date				ADAS
+80000	Total Tires Controlled				SMS Events
+80010	Total Number of AXL				SMS Events
+80020	Graphical Position				SMS Events
+80030	Tire 1 Pressure	BAR*10			SMS Events
+80040	Tire 2 Pressure	BAR*10			SMS Events
+80050	Tire 3 Pressure	BAR*10			SMS Events
+80060	Tire 4 Pressure	BAR*10			SMS Events
+80070	Tire 5 Pressure	BAR*10			SMS Events
+80080	Tire 6 Pressure	BAR*10			SMS Events
+80090	Tire 7 Pressure	BAR*10			SMS Events
+80100	Tire 8 Pressure	BAR*10			SMS Events
+80110	Tire 9 Pressure	BAR*10			SMS Events
+80120	Tire 10 Pressure	BAR*10			SMS Events
+80130	Tire 11 Pressure	BAR*10			SMS Events
+80140	Tire 12 Pressure	BAR*10			SMS Events
+80150	Tire 13 Pressure	BAR*10			SMS Events
+80160	Tire 14 Pressure	BAR*10			SMS Events
+80170	Tire 15 Pressure	BAR*10			SMS Events
+80180	Tire 16 Pressure	BAR*10			SMS Events
+80190	Tire 17 Pressure	BAR*10			SMS Events
+80200	Tire 18 Pressure	BAR*10			SMS Events
+80210	Tire 19 Pressure	BAR*10			SMS Events
+80220	Tire 20 Pressure	BAR*10			SMS Events
+80230	Tire 21 Pressure	BAR*10			SMS Events
+80240	Tire 22 Pressure	BAR*10			SMS Events
+80250	Tire 23 Pressure	BAR*10			SMS Events
+80260	Tire 24 Pressure	BAR*10			SMS Events
+80270	Tire 1 Temperature	â			Custom scenarios
+80280	Tire 1 Warning				Custom scenarios
+80290	Tire 2 Temperature	â			Custom scenarios
+80300	Tire 2 Warning				Custom scenarios
+80310	Tire 3 Temperature	â			Custom scenarios
+80320	Tire 3 Warning				Custom scenarios
+80330	Tire 4 Temperature	â			Custom scenarios
+80340	Tire 4 Warning				Custom scenarios
+80350	Tire 5 Temperature	â			Custom scenarios
+80360	Tire 5 Warning				Custom scenarios
+80370	Tire 6 Temperature	â			Custom scenarios
+80380	Tire 6 Warning				Custom scenarios
+80390	Tire 7 Temperature	â			Custom scenarios
+80400	Tire 7 Warning				Custom scenarios
+80410	Tire 8 Temperature	â			Custom scenarios
+80420	Tire 8 Warning				Custom scenarios
+80430	Tire 9 Temperature	â			Custom scenarios
+80440	Tire 9 Warning				Custom scenarios
+80450	Tire 10 Temperature	â			Custom scenarios
+80460	Tire 10 Warning				Custom scenarios
+80470	Tire 11 Temperature	â			Custom scenarios
+80480	Tire 11 Warning				Custom scenarios
+80490	Tire 12 Temperature	â			Custom scenarios
+80500	Tire 12 Warning				Custom scenarios
+80510	Tire 13 Temperature	â			Custom scenarios
+80520	Tire 13 Warning				Custom scenarios
+80530	Tire 14 Temperature	â			Custom scenarios
+80540	Tire 14 Warning				Custom scenarios
+80550	Tire 15 Temperature	â			Custom scenarios
+80560	Tire 15 Warning				Custom scenarios
+80570	Tire 16 Temperature	â			Custom scenarios
+80580	Tire 16 Warning				Custom scenarios
+80590	Tire 17 Temperature	â			Custom scenarios
+80600	Tire 17 Warning				Custom scenarios
+80610	Tire 18 Temperature	â			Custom scenarios
+80620	Tire 18 Warning				Custom scenarios
+80630	Tire 19 Temperature	â			Custom scenarios
+80640	Tire 19 Warning				Custom scenarios
+80650	Tire 20 Temperature	â			Custom scenarios
+80660	Tire 20 Warning				Custom scenarios
+80670	Tire 21 Temperature	â			Custom scenarios
+80680	Tire 21 Warning				Custom scenarios
+80690	Tire 22 Temperature	â			Custom scenarios
+80700	Tire 22 Warning				Custom scenarios
+80710	Tire 23 Temperature	â			Custom scenarios
+80720	Tire 23 Warning				Custom scenarios
+80730	Tire 24 Temperature	â			Custom scenarios
+80740	Tire 24 Warning				Custom scenarios
+80750	Tire 1 Graphical Position				Network Settings
+80760	Tire 1 Sensor ID				Network Settings
+80770	Tire 2 Graphical Position				Network Settings
+80780	Tire 2 Sensor ID				Network Settings
+80790	Tire 3 Graphical Position				Network Settings
+80800	Tire 3 Sensor ID				Network Settings
+80810	Tire 4 Graphical Position				Network Settings
+80820	Tire 4 Sensor ID				Network Settings
+80830	Tire 5 Graphical Position				Network Settings
+80840	Tire 5 Sensor ID				Network Settings
+80850	Tire 6 Graphical Position				Network Settings
+80860	Tire 6 Sensor ID				Network Settings
+80870	Tire 7 Graphical Position				Network Settings
+80880	Tire 7 Sensor ID				Network Settings
+80890	Tire 8 Graphical Position				Network Settings
+80900	Tire 8 Sensor ID				Network Settings
+80910	Tire 9 Graphical Position				Network Settings
+80920	Tire 9 Sensor ID				Network Settings
+80930	Tire 10 Graphical Position				Network Settings
+80940	Tire 10 Sensor ID				Network Settings
+80950	Tire 11 Graphical Position				Network Settings
+80960	Tire 11 Sensor ID				Network Settings
+80970	Tire 12 Graphical Position				Network Settings
+80980	Tire 12 Sensor ID				Network Settings
+80990	Tire 13 Graphical Position				Network Settings
+81000	Tire 13 Sensor ID				Network Settings
+81010	Tire 14 Graphical Position				Network Settings
+81020	Tire 14 Sensor ID				Network Settings
+81030	Tire 15 Graphical Position				Network Settings
+81040	Tire 15 Sensor ID				Network Settings
+81050	Tire 16 Graphical Position				Network Settings
+81060	Tire 16 Sensor ID				Network Settings
+81070	Tire 17 Graphical Position				Network Settings
+81080	Tire 17 Sensor ID				Network Settings
+81090	Tire 18 Graphical Position				Network Settings
+81100	Tire 18 Sensor ID				Network Settings
+81110	Tire 19 Graphical Position				Network Settings
+81120	Tire 19 Sensor ID				Network Settings
+81130	Tire 20 Graphical Position				Network Settings
+81140	Tire 20 Sensor ID				Network Settings
+81150	Tire 21 Graphical Position				Network Settings
+81160	Tire 21 Sensor ID				Network Settings
+81170	Tire 22 Graphical Position				Network Settings
+81180	Tire 22 Sensor ID				Network Settings
+81190	Tire 23 Graphical Position				Network Settings
+81200	Tire 23 Sensor ID				Network Settings
+81210	Tire 24 Graphical Position				Network Settings
+81220	Tire 24 Sensor ID				Network Settings
+85000	EM SW Version				Roseman
+85010	EM HW Version				Roseman
+85020	EM Connection Status				Roseman
+85030	White List Version				Roseman
+85040	Driving Profile Version				Roseman
+85050	Trip Braking Time				Roseman
+85060	Trip Braking Distance				Roseman
+85070	Total Door Openings				Roseman
+85080	Total Key Starts				Roseman
+85090	Total Engine Starts				Roseman
+85100	High RPM				Roseman
+85110	ICCID				Roseman
+85120	Tracker FW Version				Roseman
+85130	INEO Operator Number				Roseman
+85140	INEO Service Number				Roseman
+85150	INEO Status				Roseman
+85160	FMS Status				Roseman
+90000	CAN20				Custom scenarios
+90010	CAN21				Custom scenarios
+90020	CAN22				Custom scenarios
+90030	CAN23				Custom scenarios
+90040	CAN24				Custom scenarios
+90050	CAN25				Custom scenarios
+90060	CAN26				Custom scenarios
+90070	CAN27				Custom scenarios
+90080	CAN28				Custom scenarios
+90090	CAN29				Custom scenarios
+90100	CAN30				Custom scenarios
+90110	CAN31				Custom scenarios
+90120	CAN32				Custom scenarios
+90130	CAN33				Custom scenarios
+90140	CAN34				Custom scenarios
+90150	CAN35				Custom scenarios
+90160	CAN36				Custom scenarios
+90170	CAN37				Custom scenarios
+90180	CAN38				Custom scenarios
+90190	CAN39				Custom scenarios
+90200	CAN40				Custom scenarios
+90210	CAN41				Custom scenarios
+90220	CAN42				Custom scenarios
+90230	CAN43				Custom scenarios
+90240	CAN44				Custom scenarios
+90250	CAN45				Custom scenarios
+90260	CAN46				Custom scenarios
+90270	CAN47				Custom scenarios
+90280	CAN48				Custom scenarios
+90290	CAN49				Custom scenarios
+90300	CAN50				Custom scenarios
+90310	CAN51				Custom scenarios
+90320	CAN52				Custom scenarios
+90330	CAN53				Custom scenarios
+90340	CAN54				Custom scenarios
+90350	CAN55				Custom scenarios
+90360	CAN56				Custom scenarios
+90370	CAN57				Custom scenarios
+90380	CAN58				Custom scenarios
+90390	CAN59				Custom scenarios
+90400	CAN60				Custom scenarios
+90410	CAN61				Custom scenarios
+90420	CAN62				Custom scenarios
+90430	CAN63				Custom scenarios
+90440	CAN64				Custom scenarios
+90450	CAN65				Custom scenarios
+90460	CAN66				Custom scenarios
+90470	CAN67				Custom scenarios
+90480	CAN68				Custom scenarios
+90490	CAN69				Custom scenarios
+90600	High voltage battery voltage	mV			Network Settings
+90610	High voltage battery current	mA			Network Settings
+90620	Internal Charger Status				Network Settings
+90630	Generic state of charge				Network Settings
+90640	EV Ignition				Network Settings
+90650	Seatbelt switch				Network Settings
+90660	EVSE1 AC RMS Current	mA			Network Settings
+90670	EVSE1 AC RMS Voltage	mV			Network Settings
+90680	DC Charging State				Network Settings
+90690	High Voltage Battery Highest Cell Temp	â			Network Settings
+90700	High Voltage Battery Lowest Cell Temp	â			Network Settings
+90710	Motor Coolant Fan1 Control Temp	â			Network Settings
+90720	Air Conditioner Compressor Status				Network Settings
+90730	High Voltage Battery Temp	â			Network Settings
+90740	HVESS Thermal Management System Heater Status				Network Settings
+90750	Trailer Weight	kg			Network Settings
+90760	Cargo Weight	kg			Network Settings
+90770	Powered Vehicle Weight	kg			Network Settings
+90780	Gross Combination Vehicle Weight	kg			Network Settings
+90790	Highest cell voltage	mV			Network Settings
+90800	Lowest cell voltage	mV			Network Settings
+90810	HVESS State of Health	%			Network Settings
+90820	HVESS Total Energy Throughput	W			Network Settings
+90830	HVESS Estimated Remaining Distance	km			Network Settings
+90840	Propulsion System Active				Network Settings
+99530	Minute Counter DIN1	Min			Trace Records
+99540	Minute Counter DIN2	Min			Trace Records
+99550	Minute Counter DIN3	Min			Trace Records
+99560	Minute Counter DIN4	Min			Trace Records
+100610	RPM Max				ibuttonlist
+100620	RPM Min				ibuttonlist
+100630	RPM Avg				ibuttonlist
+100640	Kickdown Count				ibuttonlist
+100650	Kickdown Time				ibuttonlist
+100660	Full Throttle				ibuttonlist
+100670	Cruise Control				ibuttonlist
+100680	Idling Time				ibuttonlist
+100690	City Time				ibuttonlist
+100700	Motorway Time				ibuttonlist
+100710	Autobahn Time				ibuttonlist
+100720	Overspeeding Time				ibuttonlist
+100730	Gear Shifting Count				ibuttonlist
+100740	Harsh Braking Count				ibuttonlist
+100750	Harsh Braking Time				ibuttonlist
+100760	Retarder Time				ibuttonlist
+100770	Braking Time				ibuttonlist
+100780	Engine Idle Time				ibuttonlist
+100790	Engine Idle With PTO				ibuttonlist
+100800	Engine Idle Without traffic light				ibuttonlist
+100810	Acc Working Time				ibuttonlist
+100820	Total Fuel				ibuttonlist
+100830	Total Km				ibuttonlist
+100840	Change of Weight				ibuttonlist
+100850	Fuel Change				ibuttonlist
+100860	Refuel				ibuttonlist
+100870	Gas Theft				ibuttonlist
+100880	Engine Braking Time				ibuttonlist
+100890	Hand brake manipulation count				ibuttonlist
+101010	Fuel Fluid level #1	%			Trip \ Odometer
+101020	Fuel Fluid level #2	%			Trip \ Odometer
+101030	Oil Pressure ENG1	kPa			Trip \ Odometer
+101040	Oil Temperature ENG1	10*C			Trip \ Odometer
+101050	Engine Temperature ENG1	10*C			Trip \ Odometer
+101060	Alternator Voltage ENG1	mV			Trip \ Odometer
+101070	Fuel Rate ENG1	10*l/h			Trip \ Odometer
+101080	Engine Seconds ENG1	sec			Trip \ Odometer
+101090	Coolant Pressure ENG1	kPa			Trip \ Odometer
+101100	Fuel Pressure ENG1	kPa			Trip \ Odometer
+101110	Status1 warning ENG1	-			Trip \ Odometer
+101120	Status2 warning ENG1	-			Trip \ Odometer
+101130	Engine Load ENG1	%			Trip \ Odometer
+101140	Engine Torque ENG1	%			Trip \ Odometer
+101150	Water Depth (Transducer)	cm			Trip \ Odometer
+101160	Trip Fuel Used	l			Trip \ Odometer
+101170	Distance to empty	m			Trip \ Odometer
+101180	Trip runtime	sec			Trip \ Odometer
+101190	Battery Voltage	mV			Trip \ Odometer
+101200	Battery Current	mA			Trip \ Odometer
+101210	Battery Temperature	10*C			Trip \ Odometer
+101220	Charger Status	-			Trip \ Odometer
+101230	Charger Algorithm	-			Trip \ Odometer
+101240	Wind Speed	0.01*m/s			Trip \ Odometer
+101250	Air Temperature	10*C			Trip \ Odometer
+101260	Water Depth (surface)	cm			Trip \ Odometer
+101270	Water Temperature	10*C			Trip \ Odometer
+101280	State Of Charge	%			Trip \ Odometer
+101290	Alert Status	-			Trip \ Odometer
+101800	Fuel Fluid level #3	%			Trip \ Odometer
+101810	Fuel Fluid level #4	%			Trip \ Odometer
+101820	Fuel Fluid level #5	%			Trip \ Odometer
+101830	Fuel Fluid level #6	%			Trip \ Odometer
+101840	Fuel Fluid level #7	%			Trip \ Odometer
+101850	Fuel Fluid level #8	%			Trip \ Odometer
+101860	Fuel Fluid level #9	%			Trip \ Odometer
+101870	Fuel Fluid level #10	%			Trip \ Odometer
+101880	Fuel Fluid level #11	%			Trip \ Odometer
+101890	Fuel Fluid level #12	%			Trip \ Odometer
+101900	Fuel Fluid level #13	%			Trip \ Odometer
+101910	Fuel Fluid level #14	%			Trip \ Odometer
+101920	Fuel Fluid level #15	%			Trip \ Odometer
+101930	Fuel Fluid level #16	%			Trip \ Odometer
+101940	Wind Direction	rad/10000			Trip \ Odometer
+101950	Oil Pressure ENG2	kPa			Trip \ Odometer
+101960	Oil Temperature ENG2	10*C			Trip \ Odometer
+101970	Engine Temperature ENG2	10*C			Trip \ Odometer
+101980	Alternator Voltage ENG2	mV			Trip \ Odometer
+101990	Fuel Rate ENG2	10*l/h			Trip \ Odometer
+102000	Engine Seconds ENG2	sec			Trip \ Odometer
+102010	Coolant Pressure ENG2	kPa			Trip \ Odometer
+102020	Fuel Pressure ENG2	kPa			Trip \ Odometer
+102030	Status1 warning ENG2	-			Trip \ Odometer
+102040	Status2 warning ENG2	-			Trip \ Odometer
+102050	Engine Load ENG2	%			Trip \ Odometer
+102060	Engine Torque ENG2	%			Trip \ Odometer
+102070	Oil Pressure ENG3	kPa			Trip \ Odometer
+102080	Oil Temperature ENG3	10*C			Trip \ Odometer
+102090	Engine Temperature ENG3	10*C			Trip \ Odometer
+102100	Alternator Voltage ENG3	mV			Trip \ Odometer
+102110	Fuel Rate ENG3	10*l/h			Trip \ Odometer
+102120	Engine Seconds ENG3	sec			Trip \ Odometer
+102130	Coolant Pressure ENG3	kPa			Trip \ Odometer
+102140	Fuel Pressure ENG3	kPa			Trip \ Odometer
+102150	Status1 warning ENG3	-			Trip \ Odometer
+102160	Status2 warning ENG3	-			Trip \ Odometer
+102170	Engine Load ENG3	%			Trip \ Odometer
+102180	Engine Torque ENG3	%			Trip \ Odometer
+102190	Oil Pressure ENG4	kPa			Trip \ Odometer
+102200	Oil Temperature ENG4	10*C			Trip \ Odometer
+102210	Engine Temperature ENG4	10*C			Trip \ Odometer
+102230	Fuel Rate ENG4	10*l/h			Trip \ Odometer
+102240	Engine Seconds ENG4	sec			Trip \ Odometer
+102250	Coolant Pressure ENG4	kPa			Trip \ Odometer
+102260	Fuel Pressure ENG4	kPa			Trip \ Odometer
+102270	Status1 warning ENG4	-			Trip \ Odometer
+102280	Status2 warning ENG4	-			Trip \ Odometer
+102290	Engine Load ENG4	%			Trip \ Odometer
+102300	Engine Torque ENG4	%			Trip \ Odometer
+102310	Engine RPM ENG1				Trip \ Odometer
+102320	Engine RPM ENG2				Trip \ Odometer
+102330	Alternator Voltage ENG4	mV			Trip \ Odometer
+102340	Engine RPM ENG4				Trip \ Odometer
+103000	Detected Towed Vehicle				Manual CAN Requests
+103010	Reserved	km/h			Manual CAN Requests
+103020	Vehicle ABS Status				Manual CAN Requests
+103030	Vehicle Retarder Control Status				Manual CAN Requests
+103040	Red Warning Signal Request				Manual CAN Requests
+103050	Amber Warning Signal Request				Manual CAN Requests
+103060	Axle Load Sum	kg			Manual CAN Requests
+103070	Retarder Wheel Torque Reference	Nm			Manual CAN Requests
+103080	Vehicle Service Brake Status				Manual CAN Requests
+103090	Vehicle Electrical Supply Status				Manual CAN Requests
+103100	Vehicle Type				Manual CAN Requests
+103110	Axle Load Measured By Towed Vehicle	kg			Manual CAN Requests
+103120	Axle Load Measured By External Scale	kg			Manual CAN Requests
+103130	Axle Load Calibration Data Load Level				Manual CAN Requests
+103140	Brake Cylinder Pressure First Axle Left Wheel	kPa			Manual CAN Requests
+103150	Brake Cylinder Pressure First Axle Right Wheel	kPa			Manual CAN Requests
+103160	Brake Cylinder Pressure Second Axle Left Wheel	kPa			Manual CAN Requests
+103170	Brake Cylinder Pressure Second Axle Right Wheel	kPa			Manual CAN Requests
+103180	Brake Cylinder Pressure Third Axle Left Wheel	kPa			Manual CAN Requests
+103190	Brake Cylinder Pressure Third Axle Right Wheel	kPa			Manual CAN Requests
+103200	VIN				Manual CAN Requests
+103210	VDC Active				Manual CAN Requests
+103220	Lateral Acceleration	m/s^2			Manual CAN Requests
+103230	Loading Ramp Approach Assistance Status				Manual CAN Requests
+103240	Supply Line Braking				Manual CAN Requests
+103250	Stop Lamps Request				Manual CAN Requests
+103260	Braking Via Electric Control Line Support				Manual CAN Requests
+103270	ROP System Status				Manual CAN Requests
+103280	YC System Status				Manual CAN Requests
+103290	Traction Help Status				Manual CAN Requests
+103300	Lift Axle 1 Position Status				Manual CAN Requests
+103310	Lift Axle 2 Position Status				Manual CAN Requests
+103320	Steering Axle Locking Status				Manual CAN Requests
+103330	Wheel Tire Pressure Status Axle 1 Wheel 6				Manual CAN Requests
+103340	Wheel Tire Pressure Status Axle 1 Wheel 7				Manual CAN Requests
+103350	Wheel Tire Pressure Status Axle 1 Wheel 8				Manual CAN Requests
+103360	Wheel Tire Pressure Status Axle 1 Wheel 9				Manual CAN Requests
+103370	Wheel Tire Pressure Status Axle 1 Wheel 10				Manual CAN Requests
+103380	Wheel Tire Pressure Status Axle 2 Wheel 6				Manual CAN Requests
+103390	Wheel Tire Pressure Status Axle 2 Wheel 7				Manual CAN Requests
+103400	Wheel Tire Pressure Status Axle 2 Wheel 8				Manual CAN Requests
+103410	Wheel Tire Pressure Status Axle 2 Wheel 9				Manual CAN Requests
+103420	Wheel Tire Pressure Status Axle 2 Wheel 10				Manual CAN Requests
+103430	Wheel Tire Pressure Status Axle 3 Wheel 6				Manual CAN Requests
+103440	Wheel Tire Pressure Status Axle 3 Wheel 7				Manual CAN Requests
+103450	Wheel Tire Pressure Status Axle 3 Wheel 8				Manual CAN Requests
+103460	Wheel Tire Pressure Status Axle 3 Wheel 9				Manual CAN Requests
+103470	Wheel Tire Pressure Status Axle 3 Wheel 10				Manual CAN Requests
+103480	Wheel Tire Pressure Axle 1 Wheel 6	kPa			Manual CAN Requests
+103490	Wheel Tire Pressure Axle 1 Wheel 7	kPa			Manual CAN Requests
+103500	Wheel Tire Pressure Axle 1 Wheel 8	kPa			Manual CAN Requests
+103510	Wheel Tire Pressure Axle 1 Wheel 9	kPa			Manual CAN Requests
+103520	Wheel Tire Pressure Axle 1 Wheel 10	kPa			Manual CAN Requests
+103530	Wheel Tire Pressure Axle 2 Wheel 6	kPa			Manual CAN Requests
+103540	Wheel Tire Pressure Axle 2 Wheel 7	kPa			Manual CAN Requests
+103550	Wheel Tire Pressure Axle 2 Wheel 8	kPa			Manual CAN Requests
+103560	Wheel Tire Pressure Axle 2 Wheel 9	kPa			Manual CAN Requests
+103570	Wheel Tire Pressure Axle 2 Wheel 10	kPa			Manual CAN Requests
+103580	Wheel Tire Pressure Axle 3 Wheel 6	kPa			Manual CAN Requests
+103590	Wheel Tire Pressure Axle 3 Wheel 7	kPa			Manual CAN Requests
+103600	Wheel Tire Pressure Axle 3 Wheel 8	kPa			Manual CAN Requests
+103610	Wheel Tire Pressure Axle 3 Wheel 9	kPa			Manual CAN Requests
+103620	Wheel Tire Pressure Axle 3 Wheel 10	kPa			Manual CAN Requests
+103630	Wheel Brake Lining Status Axle 1 Wheel 6				Manual CAN Requests
+103640	Wheel Brake Lining Status Axle 1 Wheel 7				Manual CAN Requests
+103650	Wheel Brake Lining Status Axle 1 Wheel 8				Manual CAN Requests
+103660	Wheel Brake Lining Status Axle 1 Wheel 9				Manual CAN Requests
+103670	Wheel Brake Lining Status Axle 1 Wheel 10				Manual CAN Requests
+103680	Wheel Brake Lining Status Axle 2 Wheel 6				Manual CAN Requests
+103690	Wheel Brake Lining Status Axle 2 Wheel 7				Manual CAN Requests
+103700	Wheel Brake Lining Status Axle 2 Wheel 8				Manual CAN Requests
+103710	Wheel Brake Lining Status Axle 2 Wheel 9				Manual CAN Requests
+103720	Wheel Brake Lining Status Axle 2 Wheel 10				Manual CAN Requests
+103730	Wheel Brake Lining Status Axle 3 Wheel 6				Manual CAN Requests
+103740	Wheel Brake Lining Status Axle 3 Wheel 7				Manual CAN Requests
+103750	Wheel Brake Lining Status Axle 3 Wheel 8				Manual CAN Requests
+103760	Wheel Brake Lining Status Axle 3 Wheel 9				Manual CAN Requests
+103770	Wheel Brake Lining Status Axle 3 Wheel 10				Manual CAN Requests
+103780	Wheel Brake Lining Axle 1 Wheel 6	%			Manual CAN Requests
+103790	Wheel Brake Lining Axle 1 Wheel 7	%			Manual CAN Requests
+103800	Wheel Brake Lining Axle 1 Wheel 8	%			Manual CAN Requests
+103810	Wheel Brake Lining Axle 1 Wheel 9	%			Manual CAN Requests
+103820	Wheel Brake Lining Axle 1 Wheel 10	%			Manual CAN Requests
+103830	Wheel Brake Lining Axle 2 Wheel 6	%			Manual CAN Requests
+103840	Wheel Brake Lining Axle 2 Wheel 7	%			Manual CAN Requests
+103850	Wheel Brake Lining Axle 2 Wheel 8	%			Manual CAN Requests
+103860	Wheel Brake Lining Axle 2 Wheel 9	%			Manual CAN Requests
+103870	Wheel Brake Lining Axle 2 Wheel 10	%			Manual CAN Requests
+103880	Wheel Brake Lining Axle 3 Wheel 6	%			Manual CAN Requests
+103890	Wheel Brake Lining Axle 3 Wheel 7	%			Manual CAN Requests
+103900	Wheel Brake Lining Axle 3 Wheel 8	%			Manual CAN Requests
+103910	Wheel Brake Lining Axle 3 Wheel 9	%			Manual CAN Requests
+103920	Wheel Brake Lining Axle 3 Wheel 10	%			Manual CAN Requests
+103930	Wheel Brake Temp Status Axle 1 Wheel 6				Manual CAN Requests
+103940	Wheel Brake Temp Status Axle 1 Wheel 7				Manual CAN Requests
+103950	Wheel Brake Temp Status Axle 1 Wheel 8				Manual CAN Requests
+103960	Wheel Brake Temp Status Axle 1 Wheel 9				Manual CAN Requests
+103970	Wheel Brake Temp Status Axle 1 Wheel 10				Manual CAN Requests
+103980	Wheel Brake Temp Status Axle 2 Wheel 6				Manual CAN Requests
+103990	Wheel Brake Temp Status Axle 2 Wheel 7				Manual CAN Requests
+104000	Wheel Brake Temp Status Axle 2 Wheel 8				Manual CAN Requests
+104010	Wheel Brake Temp Status Axle 2 Wheel 9				Manual CAN Requests
+104020	Wheel Brake Temp Status Axle 2 Wheel 10				Manual CAN Requests
+104030	Wheel Brake Temp Status Axle 3 Wheel 6				Manual CAN Requests
+104040	Wheel Brake Temp Status Axle 3 Wheel 7				Manual CAN Requests
+104050	Wheel Brake Temp Status Axle 3 Wheel 8				Manual CAN Requests
+104060	Wheel Brake Temp Status Axle 3 Wheel 9				Manual CAN Requests
+104070	Wheel Brake Temp Status Axle 3 Wheel 10				Manual CAN Requests
+104080	Wheel Brake Temp Axle 1 Wheel 6	Â°C			Manual CAN Requests
+104090	Wheel Brake Temp Axle 1 Wheel 7	Â°C			Manual CAN Requests
+104100	Wheel Brake Temp Axle 1 Wheel 8	Â°C			Manual CAN Requests
+104110	Wheel Brake Temp Axle 1 Wheel 9	Â°C			Manual CAN Requests
+104120	Wheel Brake Temp Axle 1 Wheel 10	Â°C			Manual CAN Requests
+104130	Wheel Brake Temp Axle 2 Wheel 6	Â°C			Manual CAN Requests
+104140	Wheel Brake Temp Axle 2 Wheel 7	Â°C			Manual CAN Requests
+104150	Wheel Brake Temp Axle 2 Wheel 8	Â°C			Manual CAN Requests
+104160	Wheel Brake Temp Axle 2 Wheel 9	Â°C			Manual CAN Requests
+104170	Wheel Brake Temp Axle 2 Wheel 10	Â°C			Manual CAN Requests
+104180	Wheel Brake Temp Axle 3 Wheel 6	Â°C			Manual CAN Requests
+104190	Wheel Brake Temp Axle 3 Wheel 7	Â°C			Manual CAN Requests
+104200	Wheel Brake Temp Axle 3 Wheel 8	Â°C			Manual CAN Requests
+104210	Wheel Brake Temp Axle 3 Wheel 9	Â°C			Manual CAN Requests
+104220	Wheel Brake Temp Axle 3 Wheel 10	Â°C			Manual CAN Requests
+104230	Vehicle Pneumatic Supply Status				Manual CAN Requests
+104240	Air Leakage Detection Axle 1 Wheel 6	Pa/s			Manual CAN Requests
+104250	Air Leakage Detection Axle 1 Wheel 7	Pa/s			Manual CAN Requests
+104260	Air Leakage Detection Axle 1 Wheel 8	Pa/s			Manual CAN Requests
+104270	Air Leakage Detection Axle 1 Wheel 9	Pa/s			Manual CAN Requests
+104280	Air Leakage Detection Axle 1 Wheel 10	Pa/s			Manual CAN Requests
+104290	Air Leakage Detection Axle 2 Wheel 6	Pa/s			Manual CAN Requests
+104300	Air Leakage Detection Axle 2 Wheel 7	Pa/s			Manual CAN Requests
+104310	Air Leakage Detection Axle 2 Wheel 8	Pa/s			Manual CAN Requests
+104320	Air Leakage Detection Axle 2 Wheel 9	Pa/s			Manual CAN Requests
+104330	Air Leakage Detection Axle 2 Wheel 10	Pa/s			Manual CAN Requests
+104340	Air Leakage Detection Axle 3 Wheel 6	Pa/s			Manual CAN Requests
+104350	Air Leakage Detection Axle 3 Wheel 7	Pa/s			Manual CAN Requests
+104360	Air Leakage Detection Axle 3 Wheel 8	Pa/s			Manual CAN Requests
+104370	Air Leakage Detection Axle 3 Wheel 9	Pa/s			Manual CAN Requests
+104380	Air Leakage Detection Axle 3 Wheel 10				Manual CAN Requests
+104390	Tire Temperature Axle 1 Wheel 6	Â°C			Manual CAN Requests
+104400	Tire Temperature Axle 1 Wheel 7	Â°C			Manual CAN Requests
+104410	Tire Temperature Axle 1 Wheel 8	Â°C			Manual CAN Requests
+104420	Tire Temperature Axle 1 Wheel 9	Â°C			Manual CAN Requests
+104430	Tire Temperature Axle 1 Wheel 10	Â°C			Manual CAN Requests
+104440	Tire Temperature Axle 2 Wheel 6	Â°C			Manual CAN Requests
+104450	Tire Temperature Axle 2 Wheel 7	Â°C			Manual CAN Requests
+104460	Tire Temperature Axle 2 Wheel 8	Â°C			Manual CAN Requests
+104470	Tire Temperature Axle 2 Wheel 9	Â°C			Manual CAN Requests
+104480	Tire Temperature Axle 2 Wheel 10	Â°C			Manual CAN Requests
+104490	Tire Temperature Axle 3 Wheel 6	Â°C			Manual CAN Requests
+104500	Tire Temperature Axle 3 Wheel 7	Â°C			Manual CAN Requests
+104510	Tire Temperature Axle 3 Wheel 8	Â°C			Manual CAN Requests
+104520	Tire Temperature Axle 3 Wheel 9	Â°C			Manual CAN Requests
+104530	Tire Temperature Axle 3 Wheel 10	Â°C			Manual CAN Requests
+104540	Automatic Towed Vehicle Braking Status				Manual CAN Requests
+104550	Electrical Supply of Non-Braking Systems Status				Manual CAN Requests
+104560	Spring Brake Installation Status				Manual CAN Requests
+104570	Electrical Load Proportional Function Installation Status				Manual CAN Requests
+104580	Spring Brake Status				Manual CAN Requests
+104590	Pneumatic Supply Pressure	kPa			Manual CAN Requests
+104620	Reserved #2	km/h			Manual CAN Requests
+104630	Vehicle ABS Status #2				Manual CAN Requests
+104640	Vehicle Retarder Control Status #2				Manual CAN Requests
+104650	Red Warning Signal Request #2				Manual CAN Requests
+104660	Amber Warning Signal Request #2				Manual CAN Requests
+104670	Axle Load Sum #2	kg			Manual CAN Requests
+104680	Retarder Wheel Torque Reference #2	Nm			Manual CAN Requests
+104690	Vehicle Service Brake Status #2				Manual CAN Requests
+104700	Vehicle Electrical Supply Status #2				Manual CAN Requests
+104710	Vehicle Type #2				Manual CAN Requests
+104720	Axle Load Measured By Towed Vehicle #2	kg			Manual CAN Requests
+104730	Axle Load Measured By External Scale #2	kg			Manual CAN Requests
+104740	Axle Load Calibration Data Load Level #2				Manual CAN Requests
+104750	Brake Cylinder Pressure First Axle Left Wheel #2	kPa			Manual CAN Requests
+104760	Brake Cylinder Pressure First Axle Right Wheel #2	kPa			Manual CAN Requests
+104770	Brake Cylinder Pressure Second Axle Left Wheel #2	kPa			Manual CAN Requests
+104780	Brake Cylinder Pressure Second Axle Right Wheel #2	kPa			Manual CAN Requests
+104790	Brake Cylinder Pressure Third Axle Left Wheel #2	kPa			Manual CAN Requests
+104800	Brake Cylinder Pressure Third Axle Right Wheel #2	kPa			Manual CAN Requests
+104810	VIN #2				Manual CAN Requests
+104820	VDC Active #2				Manual CAN Requests
+104830	Lateral Acceleration #2	m/s^2			Manual CAN Requests
+104840	Loading Ramp Approach Assistance Status #2				Manual CAN Requests
+104850	Supply Line Braking #2				Manual CAN Requests
+104860	Stop Lamps Request #2				Manual CAN Requests
+104870	Braking Via Electric Control Line Support #2				Manual CAN Requests
+104880	ROP System Status #2				Manual CAN Requests
+104890	YC System Status #2				Manual CAN Requests
+104900	Traction Help Status #2				Manual CAN Requests
+104910	Lift Axle 1 Position Status #2				Manual CAN Requests
+104920	Lift Axle 2 Position Status #2				Manual CAN Requests
+104930	Steering Axle Locking Status #2				Manual CAN Requests
+104940	Wheel Tire Pressure Status Axle 1 Wheel 6 #2				Manual CAN Requests
+104950	Wheel Tire Pressure Status Axle 1 Wheel 7 #2				Manual CAN Requests
+104960	Wheel Tire Pressure Status Axle 1 Wheel 8 #2				Manual CAN Requests
+104970	Wheel Tire Pressure Status Axle 1 Wheel 9 #2				Manual CAN Requests
+104980	Wheel Tire Pressure Status Axle 1 Wheel 10 #2				Manual CAN Requests
+104990	Wheel Tire Pressure Status Axle 2 Wheel 6 #2				Manual CAN Requests
+105000	Wheel Tire Pressure Status Axle 2 Wheel 7 #2				Manual CAN Requests
+105010	Wheel Tire Pressure Status Axle 2 Wheel 8 #2				Manual CAN Requests
+105020	Wheel Tire Pressure Status Axle 2 Wheel 9 #2				Manual CAN Requests
+105030	Wheel Tire Pressure Status Axle 2 Wheel 10 #2				Manual CAN Requests
+105040	Wheel Tire Pressure Status Axle 3 Wheel 6 #2				Manual CAN Requests
+105050	Wheel Tire Pressure Status Axle 3 Wheel 7 #2				Manual CAN Requests
+105060	Wheel Tire Pressure Status Axle 3 Wheel 8 #2				Manual CAN Requests
+105070	Wheel Tire Pressure Status Axle 3 Wheel 9 #2				Manual CAN Requests
+105080	Wheel Tire Pressure Status Axle 3 Wheel 10 #2				Manual CAN Requests
+105090	Wheel Tire Pressure Axle 1 Wheel 6 #2	kPa			Manual CAN Requests
+105100	Wheel Tire Pressure Axle 1 Wheel 7 #2	kPa			Manual CAN Requests
+105110	Wheel Tire Pressure Axle 1 Wheel 8 #2	kPa			Manual CAN Requests
+105120	Wheel Tire Pressure Axle 1 Wheel 9 #2	kPa			Manual CAN Requests
+105130	Wheel Tire Pressure Axle 1 Wheel 10 #2	kPa			Manual CAN Requests
+105140	Wheel Tire Pressure Axle 2 Wheel 6 #2	kPa			Manual CAN Requests
+105150	Wheel Tire Pressure Axle 2 Wheel 7 #2	kPa			Manual CAN Requests
+105160	Wheel Tire Pressure Axle 2 Wheel 8 #2	kPa			Manual CAN Requests
+105170	Wheel Tire Pressure Axle 2 Wheel 9 #2	kPa			Manual CAN Requests
+105180	Wheel Tire Pressure Axle 2 Wheel 10 #2	kPa			Manual CAN Requests
+105190	Wheel Tire Pressure Axle 3 Wheel 6 #2	kPa			Manual CAN Requests
+105200	Wheel Tire Pressure Axle 3 Wheel 7 #2	kPa			Manual CAN Requests
+105210	Wheel Tire Pressure Axle 3 Wheel 8 #2	kPa			Manual CAN Requests
+105220	Wheel Tire Pressure Axle 3 Wheel 9 #2	kPa			Manual CAN Requests
+105230	Wheel Tire Pressure Axle 3 Wheel 10 #2	kPa			Manual CAN Requests
+105240	Wheel Brake Lining Status Axle 1 Wheel 6 #2				Manual CAN Requests
+105250	Wheel Brake Lining Status Axle 1 Wheel 7 #2				Manual CAN Requests
+105260	Wheel Brake Lining Status Axle 1 Wheel 8 #2				Manual CAN Requests
+105270	Wheel Brake Lining Status Axle 1 Wheel 9 #2				Manual CAN Requests
+105280	Wheel Brake Lining Status Axle 1 Wheel 10 #2				Manual CAN Requests
+105290	Wheel Brake Lining Status Axle 2 Wheel 6 #2				Manual CAN Requests
+105300	Wheel Brake Lining Status Axle 2 Wheel 7 #2				Manual CAN Requests
+105310	Wheel Brake Lining Status Axle 2 Wheel 8 #2				Manual CAN Requests
+105320	Wheel Brake Lining Status Axle 2 Wheel 9 #2				Manual CAN Requests
+105330	Wheel Brake Lining Status Axle 2 Wheel 10 #2				Manual CAN Requests
+105340	Wheel Brake Lining Status Axle 3 Wheel 6 #2				Manual CAN Requests
+105350	Wheel Brake Lining Status Axle 3 Wheel 7 #2				Manual CAN Requests
+105360	Wheel Brake Lining Status Axle 3 Wheel 8 #2				Manual CAN Requests
+105370	Wheel Brake Lining Status Axle 3 Wheel 9 #2				Manual CAN Requests
+105380	Wheel Brake Lining Status Axle 3 Wheel 10 #2				Manual CAN Requests
+105390	Wheel Brake Lining Axle 1 Wheel 6 #2	%			Manual CAN Requests
+105400	Wheel Brake Lining Axle 1 Wheel 7 #2	%			Manual CAN Requests
+105410	Wheel Brake Lining Axle 1 Wheel 8 #2	%			Manual CAN Requests
+105420	Wheel Brake Lining Axle 1 Wheel 9 #2	%			Manual CAN Requests
+105430	Wheel Brake Lining Axle 1 Wheel 10 #2	%			Manual CAN Requests
+105440	Wheel Brake Lining Axle 2 Wheel 6 #2	%			Manual CAN Requests
+105450	Wheel Brake Lining Axle 2 Wheel 7 #2	%			Manual CAN Requests
+105460	Wheel Brake Lining Axle 2 Wheel 8 #2	%			Manual CAN Requests
+105470	Wheel Brake Lining Axle 2 Wheel 9 #2	%			Manual CAN Requests
+105480	Wheel Brake Lining Axle 2 Wheel 10 #2	%			Manual CAN Requests
+105490	Wheel Brake Lining Axle 3 Wheel 6 #2	%			Manual CAN Requests
+105500	Wheel Brake Lining Axle 3 Wheel 7 #2	%			Manual CAN Requests
+105510	Wheel Brake Lining Axle 3 Wheel 8 #2	%			Manual CAN Requests
+105520	Wheel Brake Lining Axle 3 Wheel 9 #2	%			Manual CAN Requests
+105530	Wheel Brake Lining Axle 3 Wheel 10 #2	%			Manual CAN Requests
+105540	Wheel Brake Temp Status Axle 1 Wheel 6 #2				Manual CAN Requests
+105550	Wheel Brake Temp Status Axle 1 Wheel 7 #2				Manual CAN Requests
+105560	Wheel Brake Temp Status Axle 1 Wheel 8 #2				Manual CAN Requests
+105570	Wheel Brake Temp Status Axle 1 Wheel 9 #2				Manual CAN Requests
+105580	Wheel Brake Temp Status Axle 1 Wheel 10 #2				Manual CAN Requests
+105590	Wheel Brake Temp Status Axle 2 Wheel 6 #2				Manual CAN Requests
+105600	Wheel Brake Temp Status Axle 2 Wheel 7 #2				Manual CAN Requests
+105610	Wheel Brake Temp Status Axle 2 Wheel 8 #2				Manual CAN Requests
+105620	Wheel Brake Temp Status Axle 2 Wheel 9 #2				Manual CAN Requests
+105630	Wheel Brake Temp Status Axle 2 Wheel 10 #2				Manual CAN Requests
+105640	Wheel Brake Temp Status Axle 3 Wheel 6 #2				Manual CAN Requests
+105650	Wheel Brake Temp Status Axle 3 Wheel 7 #2				Manual CAN Requests
+105660	Wheel Brake Temp Status Axle 3 Wheel 8 #2				Manual CAN Requests
+105670	Wheel Brake Temp Status Axle 3 Wheel 9 #2				Manual CAN Requests
+105680	Wheel Brake Temp Status Axle 3 Wheel 10 #2				Manual CAN Requests
+105690	Wheel Brake Temp Axle 1 Wheel 6 #2	Â°C			Manual CAN Requests
+105700	Wheel Brake Temp Axle 1 Wheel 7 #2	Â°C			Manual CAN Requests
+105710	Wheel Brake Temp Axle 1 Wheel 8 #2	Â°C			Manual CAN Requests
+105720	Wheel Brake Temp Axle 1 Wheel 9 #2	Â°C			Manual CAN Requests
+105730	Wheel Brake Temp Axle 1 Wheel 10 #2	Â°C			Manual CAN Requests
+105740	Wheel Brake Temp Axle 2 Wheel 6 #2	Â°C			Manual CAN Requests
+105750	Wheel Brake Temp Axle 2 Wheel 7 #2	Â°C			Manual CAN Requests
+105760	Wheel Brake Temp Axle 2 Wheel 8 #2	Â°C			Manual CAN Requests
+105770	Wheel Brake Temp Axle 2 Wheel 9 #2	Â°C			Manual CAN Requests
+105780	Wheel Brake Temp Axle 2 Wheel 10 #2	Â°C			Manual CAN Requests
+105790	Wheel Brake Temp Axle 3 Wheel 6 #2	Â°C			Manual CAN Requests
+105800	Wheel Brake Temp Axle 3 Wheel 7 #2	Â°C			Manual CAN Requests
+105810	Wheel Brake Temp Axle 3 Wheel 8 #2	Â°C			Manual CAN Requests
+105820	Wheel Brake Temp Axle 3 Wheel 9 #2	Â°C			Manual CAN Requests
+105830	Wheel Brake Temp Axle 3 Wheel 10 #2	Â°C			Manual CAN Requests
+105840	Vehicle Pneumatic Supply Status #2				Manual CAN Requests
+105850	Air Leakage Detection Axle 1 Wheel 6 #2	Pa/s			Manual CAN Requests
+105860	Air Leakage Detection Axle 1 Wheel 7 #2	Pa/s			Manual CAN Requests
+105870	Air Leakage Detection Axle 1 Wheel 8 #2	Pa/s			Manual CAN Requests
+105880	Air Leakage Detection Axle 1 Wheel 9 #2	Pa/s			Manual CAN Requests
+105890	Air Leakage Detection Axle 1 Wheel 10 #2	Pa/s			Manual CAN Requests
+105900	Air Leakage Detection Axle 2 Wheel 6 #2	Pa/s			Manual CAN Requests
+105910	Air Leakage Detection Axle 2 Wheel 7 #2	Pa/s			Manual CAN Requests
+105920	Air Leakage Detection Axle 2 Wheel 8 #2	Pa/s			Manual CAN Requests
+105930	Air Leakage Detection Axle 2 Wheel 9 #2	Pa/s			Manual CAN Requests
+105940	Air Leakage Detection Axle 2 Wheel 10 #2	Pa/s			Manual CAN Requests
+105950	Air Leakage Detection Axle 3 Wheel 6 #2	Pa/s			Manual CAN Requests
+105960	Air Leakage Detection Axle 3 Wheel 7 #2	Pa/s			Manual CAN Requests
+105970	Air Leakage Detection Axle 3 Wheel 8 #2	Pa/s			Manual CAN Requests
+105980	Air Leakage Detection Axle 3 Wheel 9 #2	Pa/s			Manual CAN Requests
+105990	Air Leakage Detection Axle 3 Wheel 10 #2				Manual CAN Requests
+106000	Tire Temperature Axle 1 Wheel 6 #2	Â°C			Manual CAN Requests
+106010	Tire Temperature Axle 1 Wheel 7 #2	Â°C			Manual CAN Requests
+106020	Tire Temperature Axle 1 Wheel 8 #2	Â°C			Manual CAN Requests
+106030	Tire Temperature Axle 1 Wheel 9 #2	Â°C			Manual CAN Requests
+106040	Tire Temperature Axle 1 Wheel 10 #2	Â°C			Manual CAN Requests
+106050	Tire Temperature Axle 2 Wheel 6 #2	Â°C			Manual CAN Requests
+106060	Tire Temperature Axle 2 Wheel 7 #2	Â°C			Manual CAN Requests
+106070	Tire Temperature Axle 2 Wheel 8 #2	Â°C			Manual CAN Requests
+106080	Tire Temperature Axle 2 Wheel 9 #2	Â°C			Manual CAN Requests
+106090	Tire Temperature Axle 2 Wheel 10 #2	Â°C			Manual CAN Requests
+106100	Tire Temperature Axle 3 Wheel 6 #2	Â°C			Manual CAN Requests
+106110	Tire Temperature Axle 3 Wheel 7 #2	Â°C			Manual CAN Requests
+106120	Tire Temperature Axle 3 Wheel 8 #2	Â°C			Manual CAN Requests
+106130	Tire Temperature Axle 3 Wheel 9 #2	Â°C			Manual CAN Requests
+106140	Tire Temperature Axle 3 Wheel 10 #2	Â°C			Manual CAN Requests
+106150	Automatic Towed Vehicle Braking Status #2				Manual CAN Requests
+106160	Electrical Supply of Non N=2-Braking Systems Status				Manual CAN Requests
+106170	Spring Brake Installation Status #2				Manual CAN Requests
+106180	Electrical Load Proportional Function Installation Status #2				Manual CAN Requests
+106190	Spring Brake Status #2				Manual CAN Requests
+106200	Pneumatic Supply Pressure #2	kPa			Manual CAN Requests
+106230	Reserved #3	km/h			Manual CAN Requests
+106240	Vehicle ABS Status #3				Manual CAN Requests
+106250	Vehicle Retarder Control Status #3				Manual CAN Requests
+106260	Red Warning Signal Request #3				Manual CAN Requests
+106270	Amber Warning Signal Request #3				Manual CAN Requests
+106280	Axle Load Sum #3	kg			Manual CAN Requests
+106290	Retarder Wheel Torque Reference #3	Nm			Manual CAN Requests
+106300	Vehicle Service Brake Status #3				Manual CAN Requests
+106310	Vehicle Electrical Supply Status #3				Manual CAN Requests
+106320	Vehicle Type #3				Manual CAN Requests
+106330	Axle Load Measured By Towed Vehicle #3	kg			Manual CAN Requests
+106340	Axle Load Measured By External Scale #3	kg			Manual CAN Requests
+106350	Axle Load Calibration Data Load Level #3				Manual CAN Requests
+106360	Brake Cylinder Pressure First Axle Left Wheel #3	kPa			Manual CAN Requests
+106370	Brake Cylinder Pressure First Axle Right Wheel #3	kPa			Manual CAN Requests
+106380	Brake Cylinder Pressure Second Axle Left Wheel #3	kPa			Manual CAN Requests
+106390	Brake Cylinder Pressure Second Axle Right Wheel #3	kPa			Manual CAN Requests
+106400	Brake Cylinder Pressure Third Axle Left Wheel #3	kPa			Manual CAN Requests
+106410	Brake Cylinder Pressure Third Axle Right Wheel #3	kPa			Manual CAN Requests
+106420	VIN #3				Manual CAN Requests
+106430	VDC Active #3				Manual CAN Requests
+106440	Lateral Acceleration #3	m/s^2			Manual CAN Requests
+106450	Loading Ramp Approach Assistance Status #3				Manual CAN Requests
+106460	Supply Line Braking #3				Manual CAN Requests
+106470	Stop Lamps Request #3				Manual CAN Requests
+106480	Braking Via Electric Control Line Support #3				Manual CAN Requests
+106490	ROP System Status #3				Manual CAN Requests
+106500	YC System Status #3				Manual CAN Requests
+106510	Traction Help Status #3				Manual CAN Requests
+106520	Lift Axle 1 Position Status #3				Manual CAN Requests
+106530	Lift Axle 2 Position Status #3				Manual CAN Requests
+106540	Steering Axle Locking Status #3				Manual CAN Requests
+106550	Wheel Tire Pressure Status Axle 1 Wheel 6 #3				Manual CAN Requests
+106560	Wheel Tire Pressure Status Axle 1 Wheel 7 #3				Manual CAN Requests
+106570	Wheel Tire Pressure Status Axle 1 Wheel 8 #3				Manual CAN Requests
+106580	Wheel Tire Pressure Status Axle 1 Wheel 9 #3				Manual CAN Requests
+106590	Wheel Tire Pressure Status Axle 1 Wheel 10 #3				Manual CAN Requests
+106600	Wheel Tire Pressure Status Axle 2 Wheel 6 #3				Manual CAN Requests
+106610	Wheel Tire Pressure Status Axle 2 Wheel 7 #3				Manual CAN Requests
+106620	Wheel Tire Pressure Status Axle 2 Wheel 8 #3				Manual CAN Requests
+106630	Wheel Tire Pressure Status Axle 2 Wheel 9 #3				Manual CAN Requests
+106640	Wheel Tire Pressure Status Axle 2 Wheel 10 #3				Manual CAN Requests
+106650	Wheel Tire Pressure Status Axle 3 Wheel 6 #3				Manual CAN Requests
+106660	Wheel Tire Pressure Status Axle 3 Wheel 7 #3				Manual CAN Requests
+106670	Wheel Tire Pressure Status Axle 3 Wheel 8 #3				Manual CAN Requests
+106680	Wheel Tire Pressure Status Axle 3 Wheel 9 #3				Manual CAN Requests
+106690	Wheel Tire Pressure Status Axle 3 Wheel 10 #3				Manual CAN Requests
+106700	Wheel Tire Pressure Axle 1 Wheel 6 #3	kPa			Manual CAN Requests
+106710	Wheel Tire Pressure Axle 1 Wheel 7 #3	kPa			Manual CAN Requests
+106720	Wheel Tire Pressure Axle 1 Wheel 8 #3	kPa			Manual CAN Requests
+106730	Wheel Tire Pressure Axle 1 Wheel 9 #3	kPa			Manual CAN Requests
+106740	Wheel Tire Pressure Axle 1 Wheel 10 #3	kPa			Manual CAN Requests
+106750	Wheel Tire Pressure Axle 2 Wheel 6 #3	kPa			Manual CAN Requests
+106760	Wheel Tire Pressure Axle 2 Wheel 7 #3	kPa			Manual CAN Requests
+106770	Wheel Tire Pressure Axle 2 Wheel 8 #3	kPa			Manual CAN Requests
+106780	Wheel Tire Pressure Axle 2 Wheel 9 #3	kPa			Manual CAN Requests
+106790	Wheel Tire Pressure Axle 2 Wheel 10 #3	kPa			Manual CAN Requests
+106800	Wheel Tire Pressure Axle 3 Wheel 6 #3	kPa			Manual CAN Requests
+106810	Wheel Tire Pressure Axle 3 Wheel 7 #3	kPa			Manual CAN Requests
+106820	Wheel Tire Pressure Axle 3 Wheel 8 #3	kPa			Manual CAN Requests
+106830	Wheel Tire Pressure Axle 3 Wheel 9 #3	kPa			Manual CAN Requests
+106840	Wheel Tire Pressure Axle 3 Wheel 10 #3	kPa			Manual CAN Requests
+106850	Wheel Brake Lining Status Axle 1 Wheel 6 #3				Manual CAN Requests
+106860	Wheel Brake Lining Status Axle 1 Wheel 7 #3				Manual CAN Requests
+106870	Wheel Brake Lining Status Axle 1 Wheel 8 #3				Manual CAN Requests
+106880	Wheel Brake Lining Status Axle 1 Wheel 9 #3				Manual CAN Requests
+106890	Wheel Brake Lining Status Axle 1 Wheel 10 #3				Manual CAN Requests
+106900	Wheel Brake Lining Status Axle 2 Wheel 6 #3				Manual CAN Requests
+106910	Wheel Brake Lining Status Axle 2 Wheel 7 #3				Manual CAN Requests
+106920	Wheel Brake Lining Status Axle 2 Wheel 8 #3				Manual CAN Requests
+106930	Wheel Brake Lining Status Axle 2 Wheel 9 #3				Manual CAN Requests
+106940	Wheel Brake Lining Status Axle 2 Wheel 10 #3				Manual CAN Requests
+106950	Wheel Brake Lining Status Axle 3 Wheel 6 #3				Manual CAN Requests
+106960	Wheel Brake Lining Status Axle 3 Wheel 7 #3				Manual CAN Requests
+106970	Wheel Brake Lining Status Axle 3 Wheel 8 #3				Manual CAN Requests
+106980	Wheel Brake Lining Status Axle 3 Wheel 9 #3				Manual CAN Requests
+106990	Wheel Brake Lining Status Axle 3 Wheel 10 #3				Manual CAN Requests
+107000	Wheel Brake Lining Axle 1 Wheel 6 #3	%			Manual CAN Requests
+107010	Wheel Brake Lining Axle 1 Wheel 7 #3	%			Manual CAN Requests
+107020	Wheel Brake Lining Axle 1 Wheel 8 #3	%			Manual CAN Requests
+107030	Wheel Brake Lining Axle 1 Wheel 9 #3	%			Manual CAN Requests
+107040	Wheel Brake Lining Axle 1 Wheel 10 #3	%			Manual CAN Requests
+107050	Wheel Brake Lining Axle 2 Wheel 6 #3	%			Manual CAN Requests
+107060	Wheel Brake Lining Axle 2 Wheel 7 #3	%			Manual CAN Requests
+107070	Wheel Brake Lining Axle 2 Wheel 8 #3	%			Manual CAN Requests
+107080	Wheel Brake Lining Axle 2 Wheel 9 #3	%			Manual CAN Requests
+107090	Wheel Brake Lining Axle 2 Wheel 10 #3	%			Manual CAN Requests
+107100	Wheel Brake Lining Axle 3 Wheel 6 #3	%			Manual CAN Requests
+107110	Wheel Brake Lining Axle 3 Wheel 7 #3	%			Manual CAN Requests
+107120	Wheel Brake Lining Axle 3 Wheel 8 #3	%			Manual CAN Requests
+107130	Wheel Brake Lining Axle 3 Wheel 9 #3	%			Manual CAN Requests
+107140	Wheel Brake Lining Axle 3 Wheel 10 #3	%			Manual CAN Requests
+107150	Wheel Brake Temp Status Axle 1 Wheel 6 #3				Manual CAN Requests
+107160	Wheel Brake Temp Status Axle 1 Wheel 7 #3				Manual CAN Requests
+107170	Wheel Brake Temp Status Axle 1 Wheel 8 #3				Manual CAN Requests
+107180	Wheel Brake Temp Status Axle 1 Wheel 9 #3				Manual CAN Requests
+107190	Wheel Brake Temp Status Axle 1 Wheel 10 #3				Manual CAN Requests
+107200	Wheel Brake Temp Status Axle 2 Wheel 6 #3				Manual CAN Requests
+107210	Wheel Brake Temp Status Axle 2 Wheel 7 #3				Manual CAN Requests
+107220	Wheel Brake Temp Status Axle 2 Wheel 8 #3				Manual CAN Requests
+107230	Wheel Brake Temp Status Axle 2 Wheel 9 #3				Manual CAN Requests
+107240	Wheel Brake Temp Status Axle 2 Wheel 10 #3				Manual CAN Requests
+107250	Wheel Brake Temp Status Axle 3 Wheel 6 #3				Manual CAN Requests
+107260	Wheel Brake Temp Status Axle 3 Wheel 7 #3				Manual CAN Requests
+107270	Wheel Brake Temp Status Axle 3 Wheel 8 #3				Manual CAN Requests
+107280	Wheel Brake Temp Status Axle 3 Wheel 9 #3				Manual CAN Requests
+107290	Wheel Brake Temp Status Axle 3 Wheel 10 #3				Manual CAN Requests
+107300	Wheel Brake Temp Axle 1 Wheel 6 #3	Â°C			Manual CAN Requests
+107310	Wheel Brake Temp Axle 1 Wheel 7 #3	Â°C			Manual CAN Requests
+107320	Wheel Brake Temp Axle 1 Wheel 8 #3	Â°C			Manual CAN Requests
+107330	Wheel Brake Temp Axle 1 Wheel 9 #3	Â°C			Manual CAN Requests
+107340	Wheel Brake Temp Axle 1 Wheel 10 #3	Â°C			Manual CAN Requests
+107350	Wheel Brake Temp Axle 2 Wheel 6 #3	Â°C			Manual CAN Requests
+107360	Wheel Brake Temp Axle 2 Wheel 7 #3	Â°C			Manual CAN Requests
+107370	Wheel Brake Temp Axle 2 Wheel 8 #3	Â°C			Manual CAN Requests
+107380	Wheel Brake Temp Axle 2 Wheel 9 #3	Â°C			Manual CAN Requests
+107390	Wheel Brake Temp Axle 2 Wheel 10 #3	Â°C			Manual CAN Requests
+107400	Wheel Brake Temp Axle 3 Wheel 6 #3	Â°C			Manual CAN Requests
+107410	Wheel Brake Temp Axle 3 Wheel 7 #3	Â°C			Manual CAN Requests
+107420	Wheel Brake Temp Axle 3 Wheel 8 #3	Â°C			Manual CAN Requests
+107430	Wheel Brake Temp Axle 3 Wheel 9 #3	Â°C			Manual CAN Requests
+107440	Wheel Brake Temp Axle 3 Wheel 10 #3	Â°C			Manual CAN Requests
+107450	Vehicle Pneumatic Supply Status #3				Manual CAN Requests
+107460	Air Leakage Detection Axle 1 Wheel 6 #3	Pa/s			Manual CAN Requests
+107470	Air Leakage Detection Axle 1 Wheel 7 #3	Pa/s			Manual CAN Requests
+107480	Air Leakage Detection Axle 1 Wheel 8 #3	Pa/s			Manual CAN Requests
+107490	Air Leakage Detection Axle 1 Wheel 9 #3	Pa/s			Manual CAN Requests
+107500	Air Leakage Detection Axle 1 Wheel 10 #3	Pa/s			Manual CAN Requests
+107510	Air Leakage Detection Axle 2 Wheel 6 #3	Pa/s			Manual CAN Requests
+107520	Air Leakage Detection Axle 2 Wheel 7 #3	Pa/s			Manual CAN Requests
+107530	Air Leakage Detection Axle 2 Wheel 8 #3	Pa/s			Manual CAN Requests
+107540	Air Leakage Detection Axle 2 Wheel 9 #3	Pa/s			Manual CAN Requests
+107550	Air Leakage Detection Axle 2 Wheel 10 #3	Pa/s			Manual CAN Requests
+107560	Air Leakage Detection Axle 3 Wheel 6 #3	Pa/s			Manual CAN Requests
+107570	Air Leakage Detection Axle 3 Wheel 7 #3	Pa/s			Manual CAN Requests
+107580	Air Leakage Detection Axle 3 Wheel 8 #3	Pa/s			Manual CAN Requests
+107590	Air Leakage Detection Axle 3 Wheel 9 #3	Pa/s			Manual CAN Requests
+107600	Air Leakage Detection Axle 3 Wheel 10 #3				Manual CAN Requests
+107610	Tire Temperature Axle 1 Wheel 6 #3	Â°C			Manual CAN Requests
+107620	Tire Temperature Axle 1 Wheel 7 #3	Â°C			Manual CAN Requests
+107630	Tire Temperature Axle 1 Wheel 8 #3	Â°C			Manual CAN Requests
+107640	Tire Temperature Axle 1 Wheel 9 #3	Â°C			Manual CAN Requests
+107650	Tire Temperature Axle 1 Wheel 10 #3	Â°C			Manual CAN Requests
+107660	Tire Temperature Axle 2 Wheel 6 #3	Â°C			Manual CAN Requests
+107670	Tire Temperature Axle 2 Wheel 7 #3	Â°C			Manual CAN Requests
+107680	Tire Temperature Axle 2 Wheel 8 #3	Â°C			Manual CAN Requests
+107690	Tire Temperature Axle 2 Wheel 9 #3	Â°C			Manual CAN Requests
+107700	Tire Temperature Axle 2 Wheel 10 #3	Â°C			Manual CAN Requests
+107710	Tire Temperature Axle 3 Wheel 6 #3	Â°C			Manual CAN Requests
+107720	Tire Temperature Axle 3 Wheel 7 #3	Â°C			Manual CAN Requests
+107730	Tire Temperature Axle 3 Wheel 8 #3	Â°C			Manual CAN Requests
+107740	Tire Temperature Axle 3 Wheel 9 #3	Â°C			Manual CAN Requests
+107750	Tire Temperature Axle 3 Wheel 10 #3	Â°C			Manual CAN Requests
+107760	Automatic Towed Vehicle Braking Status #3				Manual CAN Requests
+107770	Electrical Supply of Non N=3-Braking Systems Status				Manual CAN Requests
+107780	Spring Brake Installation Status #3				Manual CAN Requests
+107790	Electrical Load Proportional Function Installation Status #3				Manual CAN Requests
+107800	Spring Brake Status #3				Manual CAN Requests
+107810	Pneumatic Supply Pressure #3	kPa			Manual CAN Requests
+107840	Braking System Wheel Based Vehicle Speed	km/h			Manual CAN Requests
+108000	Tire Pressures Combined Status, Axle 1 Towed 1				Manual CAN Requests
+108010	Brake Lining Combined Status, Axle 1 Towed 1				Manual CAN Requests
+108020	Brake Temperature Combined Status, Axle 1 Towed 1				Manual CAN Requests
+108030	Tire Pressures Combined Status, Axle 2 Towed 1				Manual CAN Requests
+108040	Brake Lining Combined Status, Axle 2 Towed 1				Manual CAN Requests
+108050	Brake Temperature Combined Status, Axle 2 Towed 1				Manual CAN Requests
+108060	Tire Pressures Combined Status, Axle 3 Towed 1				Manual CAN Requests
+108070	Brake Lining Combined Status, Axle 3 Towed 1				Manual CAN Requests
+108080	Brake Temperature Combined Status, Axle 3 Towed 1				Manual CAN Requests
+108090	Tire Pressures Combined Status, Axle 1 Towed 2				Manual CAN Requests
+108100	Brake Lining Combined Status, Axle 1 Towed 2				Manual CAN Requests
+108110	Brake Temperature Combined Status, Axle 1 Towed 2				Manual CAN Requests
+108120	Tire Pressures Combined Status, Axle 2 Towed 2				Manual CAN Requests
+108130	Brake Lining Combined Status, Axle 2 Towed 2				Manual CAN Requests
+108140	Brake Temperature Combined Status, Axle 2 Towed 2				Manual CAN Requests
+108150	Tire Pressures Combined Status, Axle 3 Towed 2				Manual CAN Requests
+108160	Brake Lining Combined Status, Axle 3 Towed 2				Manual CAN Requests
+108170	Brake Temperature Combined Status, Axle 3 Towed 2				Manual CAN Requests
+108180	Tire Pressures Combined Status, Axle 1 Towed 3				Manual CAN Requests
+108190	Brake Lining Combined Status, Axle 1 Towed 3				Manual CAN Requests
+108200	Brake Temperature Combined Status, Axle 1 Towed 3				Manual CAN Requests
+108210	Tire Pressures Combined Status, Axle 2 Towed 3				Manual CAN Requests
+108220	Brake Lining Combined Status, Axle 2 Towed 3				Manual CAN Requests
+108230	Brake Temperature Combined Status, Axle 2 Towed 3				Manual CAN Requests
+108240	Tire Pressures Combined Status, Axle 3 Towed 3				Manual CAN Requests
+108250	Brake Lining Combined Status, Axle 3 Towed 3				Manual CAN Requests
+108260	Brake Temperature Combined Status, Axle 3 Towed 3				Manual CAN Requests
+110000	Overall Status				RPM
+110010	Mode of Operation â Compartment 1				RPM
+110020	Mode of Operation â Compartment 2				RPM
+110030	Mode of Operation â Compartment 3				RPM
+110040	Engine / Standby Status				RPM
+110050	Alarm Status				RPM
+110060	Number of Active Alarms				RPM
+110070	Active Alarms Data				RPM
+110080	Number of Inactive Alarms				RPM
+110090	Inactive Alarms Data				RPM
+110100	Trailer Id				RPM
+110110	Unit Serial Number				RPM
+110120	Software Revision				RPM
+110130	Compartment 1 Setpoint	*10 Â°C			RPM
+110140	Compartment 2 Setpoint	*10 Â°C			RPM
+110150	Compartment 3 Setpoint	*10 Â°C			RPM
+110160	Ambient	*10 Â°C			RPM
+110170	Compartment 1 Return	*10 Â°C			RPM
+110180	Compartment 1 Supply	*10 Â°C			RPM
+110190	Compartment 2 Return	*10 Â°C			RPM
+110200	Compartment 2 Supply	*10 Â°C			RPM
+110210	Compartment 3 Return	*10 Â°C			RPM
+110220	Compartment 3 Supply	*10 Â°C			RPM
+110230	Remote Sensor 1	*10 Â°C			RPM
+110240	Remote Sensor 2	*10 Â°C			RPM
+110250	Remote Sensor 3	*10 Â°C			RPM
+110260	Battery Voltage	*10 V			RPM
+110270	Fuel Level	%			RPM
+110280	Door Switch Status				RPM
+110290	Remote Switch 1				RPM
+110300	Remote Switch 2				RPM
+110310	Engine Coolant	*10 Â°C			RPM
+110320	RPM				RPM
+110330	Remote Switch 3				RPM
+110340	Remote Switch 4				RPM
+110350	Total Engine Hours	h			RPM
+110360	Total Standby Hours	h			RPM
+110370	Total Switch On Hours	h			RPM
+110380	Preventative Maintenance Hour Meter 1	h			RPM
+110390	Preventative Maintenance Hour Meter 2	h			RPM
+110400	Preventative Maintenance Hour Meter 3	h			RPM
+110410	Preventative Maintenance Hour Meter 4	h			RPM
+110420	Preventative Maintenance Hour Meter 5	h			RPM
+110430	Active IntelliSet Name				RPM
+110440	IntelliSet Names				RPM
+110450	C1 Control Probe				RPM
+110460	Temperature Units				RPM
+110470	Pressure Units				RPM
+110480	Air Flow				RPM
+110490	Defrost Interval				RPM
+110500	Fresh Protect				RPM
+110510	C2 Control Probe				RPM
+110520	AFAX status				RPM
+110530	AFAX setting				RPM
+110540	AFAX CFM control				RPM
+110550	Pretrip Test Number				RPM
+110560	Pretrip Sub-test Number				RPM
+110570	Pretrip Time Display Value				RPM
+110580	Pretrip Type				RPM
+110590	Overall Pretrip Status				RPM
+110600	Test 1 â Test 25				RPM
+110610	Model Number				RPM
+110620	Operating Mode				RPM
+110630	Operating Mode Lock				RPM
+110640	City Piek Mode Override Status				RPM
+110650	Current City Piek Mode Status				RPM
+110660	Suction Pressure	Bar			RPM
+110670	Discharge Pressure	Bar			RPM
+110680	Discharge Temperature	Â°C			RPM
+110690	SMV position				RPM
+110700	Expansion Valve Position				RPM
+110710	Outlet Temperature				RPM
+110720	Outlet Pressure				RPM
+110730	Defrost Termination Temperature 1	Â°C			RPM
+110740	Defrost Termination Temperature 2				RPM
+110750	Compartment 2 DTT	Â°C			RPM
+110760	Compartment 3 DTT				RPM
+110770	Battery DC Current				RPM
+110780	Total AC Current 1				RPM
+110790	Total AC Current 2				RPM
+110800	Manifold Atmospheric Pressure				RPM
+110810	Number of APX Active Alarms				RPM
+110820	APX Active Alarms Data				RPM
+110830	Controller System Type				RPM
+110840	COM1 Mode				RPM
+110850	COM2 Mode				RPM
+110860	AirPlane Mode				RPM
+110870	Ignition				RPM
+110880	Inactive Alarms Status				RPM
+110890	Total Compressor Hours	h			RPM
+110900	MainBoard Hardware Platform Type				RPM
+110910	Road Mode Energy accumulation	kWh			RPM
+110920	Standby Mode Energy accumulation	kWh			RPM
+110930	Power Supply mode				RPM
+110940	Generator Rpm	RPM			RPM
+110950	Generator Temperature	*1000 Â°C			RPM
+110960	Generator encoder Temperature	*1000 Â°C			RPM
+110970	Inverter bulk voltage	V			RPM
+110980	Inverter temperature	*10 Â°C			RPM
+110990	Number of Inactive Alarms				RPM
+111000	Inactive Alarms Data				RPM
+111010	Controller State				RPM
+111020	Controller Status				RPM
+111030	Number of Compartments				RPM
+111040	Reefer Mode				RPM
+111050	Engine Speed Status				RPM
+111060	Act IntelliSet Number				RPM
+111070	Energy Accumulated	kWh			RPM
+111080	RTC drift	%/10 000			RPM
+120000	Compartment 1 State				RPM
+120010	Compartment 1 set point	Â°C			RPM
+120020	Compartment 1 RH set point	%			RPM
+120030	Compartment 2 State				RPM
+120040	Compartment 2 set point	Â°C			RPM
+120050	Compartment 3 State				RPM
+120060	Compartment 3 set point	Â°C			RPM
+120070	Modbus protocol version				RPM
+120080	Serial number of main unit				RPM
+120090	Type of cool engine				RPM
+120100	Run hours	h			RPM
+120110	Temperature compartment 1	Â°C			RPM
+120120	RH compartment 1	%			RPM
+120130	Compartment 1 Status 1				RPM
+120140	Compartment 1 Status 2				RPM
+120150	Compartment 1 Status 3				RPM
+120160	Temperature compartment 2	Â°C			RPM
+120170	Compartment 2 Status 1				RPM
+120180	Compartment 2 Status 2				RPM
+120190	Compartment 2 Status 3				RPM
+120200	Temperature compartment 3	Â°C			RPM
+120210	Compartment 3 Status 1				RPM
+120220	Compartment 3 Status 2				RPM
+120230	Compartment 3 Status 3				RPM
+121100	Speed	km/h			ADAS
+121110	Left turn signal				ADAS
+121120	Right turn signal				ADAS
+121130	Brake signal				ADAS
+121140	RPM				ADAS
+121150	LDW left				ADAS
+121160	LDW right				ADAS
+121170	Distance left	cm			ADAS
+121180	Distance right	cm			ADAS
+121190	Time till collision	s			ADAS
+121200	Safety distance alert				ADAS
+121210	Front vehicle start alarm				ADAS
+121220	Front proximity warning				ADAS
+121230	Front collision warning				ADAS
+121240	Pedestrian collision warning				ADAS
+121250	Record				ADAS
+121260	Error code				ADAS
+121270	Ahead distance	m			ADAS
+121280	Ahead speed	km/h			ADAS
+121290	SLR State				ADAS
+121300	SLR Recognise				ADAS
+121310	SLR Sensitivity				ADAS
+121320	SD Card Status				ADAS
+121330	Camera state				ADAS
+131000	Master Zone Status 1				ibuttonlist
+131010	Master Zone Status 2				ibuttonlist
+131020	Master Zone Status 3				ibuttonlist
+131030	Master Zone Status 4				ibuttonlist
+131040	Master Zone Status 5				ibuttonlist
+131050	Master Zone Status 6				ibuttonlist
+131060	Master Zone Status 7				ibuttonlist
+131070	Master Zone Status 8				ibuttonlist
+131080	Master Zone Events 1				ibuttonlist
+131090	Master Zone Events 2				ibuttonlist
+131100	Master Zone Events 3				ibuttonlist
+131110	Master Zone Events 4				ibuttonlist
+131120	Master Zone Events 5				ibuttonlist
+131130	Master Zone Events 6				ibuttonlist
+131140	VIN Code				ibuttonlist
+131150	Slave Zone Status 1				ibuttonlist
+131160	Slave Zone Status 2				ibuttonlist
+131170	Slave Zone Status 3				ibuttonlist
+131180	Slave Zone Status 4				ibuttonlist
+131190	Slave Zone Events 1				ibuttonlist
+131200	Slave Zone Events 2				ibuttonlist
+131210	Slave Zone Events 3				ibuttonlist
+131220	Slave Zone Events 4				ibuttonlist
+131230	Communication Error				ibuttonlist
+131240	Master Tamper Zone Fail				ibuttonlist
+131250	Slave Tamper Zone Fail				ibuttonlist
+131260	Power Event Fail				ibuttonlist
+131510	Fuel Level HR	*0.1%			NMEA2000 I/O
+150010	Ground based speed	(m/s)/1000			FMSED
+150020	Ground based distance	m/1000			FMSED
+150030	Ground based direction				FMSED
+150040	Wheel based speed	(m/s)/1000			FMSED
+150050	Wheel based distance	m/1000			FMSED
+150060	Maximum time of tractor power	min			FMSED
+150070	Wheel based direction				FMSED
+150080	Key switch state				FMSED
+150090	Start/stop state				FMSED
+150100	Maintain ECU power				FMSED
+150110	Maintain actuator power				FMSED
+150120	Implement transport state				FMSED
+150130	Implement park state				FMSED
+150140	Implement work state				FMSED
+150150	Front hitch position	%			FMSED
+150160	Front hitch in-work indication				FMSED
+150170	Front nominal lower link force	%			FMSED
+150180	Front draft	N			FMSED
+150190	Rear hitch position	%			FMSED
+150200	Rear hitch in-work indication				FMSED
+150210	Rear nominal lower link force	%			FMSED
+150220	Rear draft	N			FMSED
+150230	Front PTO output shaft speed	(1/min)/1000			FMSED
+150240	Front PTO shaft speed point	(1/min)/1000			FMSED
+150250	Front PTO engagement				FMSED
+150260	Front PTO mode				FMSED
+150270	Front PTO economy mode				FMSED
+150280	Rear PTO output shaft speed	(1/min)/1000			FMSED
+150290	Rear PTO shaft speed point	(1/min)/1000			FMSED
+150300	Rear PTO engagement				FMSED
+150310	Rear PTO mode				FMSED
+150320	Rear PTO economy mode				FMSED
+150330	Front hitch position command	%			FMSED
+150340	Rear hitch position command	%			FMSED
+150350	Front PTO speed shaft point command	(1/min)/1000			FMSED
+150360	Rear PTO speed shaft point command	(1/min)/1000			FMSED
+150370	Front PTO engagement command 1				FMSED
+150380	Rear PTO engagement command 1				FMSED
+150390	Front PTO mode command 1				FMSED
+150400	Rear PTO mode command 1				FMSED
+150410	Front PTO economy mode command 1				FMSED
+150420	Rear PTO economy mode command 1				FMSED
+150430	Auxiliary valve 0 estimated flow				FMSED
+150440	Auxiliary valve 1 estimated flow				FMSED
+150450	Auxiliary valve 2 estimated flow				FMSED
+150460	Auxiliary valve 3 estimated flow				FMSED
+150470	Auxiliary valve 4 estimated flow				FMSED
+150480	Auxiliary valve 5 estimated flow				FMSED
+150490	Auxiliary valve 6 estimated flow				FMSED
+150500	Auxiliary valve 7 estimated flow				FMSED
+150510	Auxiliary valve 8 estimated flow				FMSED
+150520	Auxiliary valve 9 estimated flow				FMSED
+150530	Auxiliary valve 10 estimated flow				FMSED
+150540	Auxiliary valve 11 estimated flow				FMSED
+150550	Auxiliary valve 12 estimated flow				FMSED
+150560	Auxiliary valve 13 estimated flow				FMSED
+150570	Auxiliary valve 14 estimated flow				FMSED
+150580	Auxiliary valve 15 estimated flow				FMSED
+150590	Auxiliary valve 0 measured flow				FMSED
+150600	Auxiliary valve 1 measured flow				FMSED
+150610	Auxiliary valve 2 measured flow				FMSED
+150620	Auxiliary valve 3 measured flow				FMSED
+150630	Auxiliary valve 4 measured flow				FMSED
+150640	Auxiliary valve 5 measured flow				FMSED
+150650	Auxiliary valve 6 measured flow				FMSED
+150660	Auxiliary valve 7 measured flow				FMSED
+150670	Auxiliary valve 8 measured flow				FMSED
+150680	Auxiliary valve 9 measured flow				FMSED
+150690	Auxiliary valve 10 measured flow				FMSED
+150700	Auxiliary valve 11 measured flow				FMSED
+150710	Auxiliary valve 12 measured flow				FMSED
+150720	Auxiliary valve 13 measured flow				FMSED
+150730	Auxiliary valve 14 measured flow				FMSED
+150740	Auxiliary valve 15 measured flow				FMSED
+150750	Auxiliary valve 0 command				FMSED
+150760	Auxiliary valve 1 command				FMSED
+150770	Auxiliary valve 2 command				FMSED
+150780	Auxiliary valve 3 command				FMSED
+150790	Auxiliary valve 4 command				FMSED
+150800	Auxiliary valve 5 command				FMSED
+150810	Auxiliary valve 6 command				FMSED
+150820	Auxiliary valve 7 command				FMSED
+150830	Auxiliary valve 8 command				FMSED
+150840	Auxiliary valve 9 command				FMSED
+150850	Auxiliary valve 10 command				FMSED
+150860	Auxiliary valve 11 command				FMSED
+150870	Auxiliary valve 12 command				FMSED
+150880	Auxiliary valve 13 command				FMSED
+150890	Auxiliary valve 14 command				FMSED
+150900	Auxiliary valve 15 command				FMSED
+150910	Tractor high-beam head lights command				FMSED
+150920	Tractor low-beam head lights command				FMSED
+150930	Tractor alternate head lights command				FMSED
+150940	Daytime running lights command				FMSED
+150950	Left-turn signal lights command				FMSED
+150960	Right-turn signal lights command				FMSED
+150970	Beacon lights command				FMSED
+150980	Front fog lights command				FMSED
+150990	Left stop lights command				FMSED
+151000	Right stop lights command				FMSED
+151010	Centre stop lights command				FMSED
+151020	Back up light and alarm horn command				FMSED
+151030	Tractor marker lights command				FMSED
+151040	Implement marker lights command				FMSED
+151050	Tractor clearance lights command				FMSED
+151060	Implement clearance lights command				FMSED
+151070	Rear high mounted work lights command				FMSED
+151080	Rear low mounted work lights command				FMSED
+151090	Underside work lights command				FMSED
+151100	Rear fog lights command				FMSED
+151110	Front high-mounted work lights command				FMSED
+151120	Front low-mounted work light command				FMSED
+151130	Side high-mounted work lights command				FMSED
+151140	Side low mounted work lights command				FMSED
+151150	Implement left forward work lights command				FMSED
+151160	Implement right forward work lights command				FMSED
+151170	Implement OEM option 1 light command				FMSED
+151180	Implement OEM option 2 light command				FMSED
+151190	Implement rear work lights command				FMSED
+151200	Implement left work lights command				FMSED
+151210	Implement right work lights command				FMSED
+151220	Lighting data message request				FMSED
+151230	Tractor high-beam head lights				FMSED
+151240	Tractor low-beam head lights				FMSED
+151250	Tractor alternate head lights				FMSED
+151260	Daytime running lights				FMSED
+151270	Left-turn signal lights				FMSED
+151280	Right-turn signal lights				FMSED
+151290	Beacon lights				FMSED
+151300	Front fog lights				FMSED
+151310	Left stop lights				FMSED
+151320	Right stop lights				FMSED
+151330	Centre stop lights				FMSED
+151340	Back up light and alarm horn				FMSED
+151350	Tractor marker lights				FMSED
+151360	Implement marker lights				FMSED
+151370	Tractor clearance lights				FMSED
+151380	Implement clearance lights				FMSED
+151390	Rear high mounted work lights				FMSED
+151400	Rear low mounted work lights				FMSED
+151410	Underside work lights				FMSED
+151420	Rear fog lights				FMSED
+151430	Front high-mounted work lights				FMSED
+151440	Front low-mounted work light				FMSED
+151450	Side high-mounted work lights				FMSED
+151460	Side low mounted work lights				FMSED
+151470	Implement left forward work lights				FMSED
+151480	Implement right forward work lights				FMSED
+151490	Implement OEM option 1 light				FMSED
+151500	Implement OEM option 2 light				FMSED
+151510	Implement rear work lights				FMSED
+151520	Implement rear work lights				FMSED
+151530	Implement right work lights				FMSED
+151540	Background illumination level	%			FMSED
+151550	Control Command 1				Manual CAN Requests
+151560	Command Action 1				Manual CAN Requests
+151570	Control Command 2				Manual CAN Requests
+151580	Command Action 2				Manual CAN Requests
+151590	Control Value 1				Manual CAN Requests
+151600	Control Limits 1				Manual CAN Requests
+151610	Control Value 2				Manual CAN Requests
+151620	Control Limits 2				Manual CAN Requests
+151630	Curvature Command	m-1			Manual CAN Requests
+151640	Curvature Command Status				Manual CAN Requests
+151650	Machine selected speed set point command	(m/s)/1000			Manual CAN Requests
+151660	Machine selected speed setpoint limit	(m/s)/1000			Manual CAN Requests
+151670	Machine selected direction command				Manual CAN Requests
+151680	Drive strategy priority 1 request				Manual CAN Requests
+151690	Drive strategy priority 2 request				Manual CAN Requests
+151700	Drive strategy priority 3 request				Manual CAN Requests
+151710	Drive strategy priority 4 request				Manual CAN Requests
+151720	Restore operator drive strategy setting request				Manual CAN Requests
+151730	DDI Setpoint Mass Per Area Application Rate	mg/mÂ²			NMEA2000 I/O
+151740	DDI Actual Mass Per Area Application Rate	mg/mÂ²			NMEA2000 I/O
+151750	DDI Setpoint Volume Content	ml			NMEA2000 I/O
+151760	DDI Actual Volume Content	ml			NMEA2000 I/O
+151770	DDI Actual Volume Per Area Application Rate as	ml/mÂ²			NMEA2000 I/O
+151780	DDI Actual Working Length	mm			NMEA2000 I/O
+151790	RTK Longitude	deg*10000000			NMEA2000 I/O
+151800	RTK Latitude	deg*10000000			NMEA2000 I/O
+151810	RTK Altitude	cm			NMEA2000 I/O
+151820	RTK Speed	m/s*100			NMEA2000 I/O
+151830	RTK Angle	deg*100			NMEA2000 I/O
+175010	Max Available Power	kW			Data Acquisition
+175020	Handlebar Lock				Data Acquisition
+175030	Rear Brake Pressed				Data Acquisition
+175040	COM Error				Data Acquisition
+175050	RPM	rpm			Data Acquisition
+175060	Motor Torque Current	A			Data Acquisition
+175070	SN High				Data Acquisition
+175080	SN Low				Data Acquisition
+175090	Lowest Battery Voltage	mV			Data Acquisition
+175100	Lowest Battery ID				Data Acquisition
+175110	Highest Battery Voltage	mV			Data Acquisition
+175120	Highest Battery ID				Data Acquisition
+175130	Highest Mismatch Voltage	mV			Data Acquisition
+175140	Highest Mismatch ID				Data Acquisition
+175150	Lowest Battery Temperature	â			Data Acquisition
+175160	Lowest Temperature Battery ID				Data Acquisition
+175170	Highest Battery Temperature	â			Data Acquisition
+175180	Highest Temperature Battery ID				Data Acquisition
+175190	Time To Full Load	s			Data Acquisition
+175200	Time To Empty	s			Data Acquisition
+175210	Time To Full	s			Data Acquisition
+175220	Cluster State				Data Acquisition
+175230	Cluster SoC	%			Data Acquisition
+175240	Max Discharge Current	A			Data Acquisition
+175250	Recuperation Allowed				Data Acquisition
+175260	Switch Process Needed				Data Acquisition
+175270	SoC Switch Level	%			Data Acquisition
+175280	Part Charge Capacity	Ah			Data Acquisition
+175290	Cluster Voltage	V			Data Acquisition
+175300	Cluster Current	A			Data Acquisition
+175310	Major Version				Data Acquisition
+175320	Minor Version				Data Acquisition
+175330	Patch Version				Data Acquisition
+175340	Recognized Batteries				Data Acquisition
+175350	Activated Batteries				Data Acquisition
+175360	Faulty Batteries				Data Acquisition
+175370	Battery 1 Voltage	V			Data Acquisition
+175380	Battery 1 Current	A			Data Acquisition
+175390	Battery 1 State				Data Acquisition
+175400	Battery 1 SoC	%			Data Acquisition
+175410	Battery 1 Temperature 1	â			Data Acquisition
+175420	Battery 1 Temperature 2	â			Data Acquisition
+175430	Battery 1 Power stage Temp	â			Data Acquisition
+175440	Battery 1 Remaining Capacity	mAh			Data Acquisition
+175450	Battery 2 Voltage	V			Data Acquisition
+175460	Battery 2 Current	A			Data Acquisition
+175470	Battery 2 State				Data Acquisition
+175480	Battery 2 SoC				Data Acquisition
+175490	Battery 2 Temperature 1	â			Data Acquisition
+175500	Battery 2 Temperature 2	â			Data Acquisition
+175510	Battery 2 Power Stage Temp	â			Data Acquisition
+175520	Battery 2 Remaining Capacity	mAh			Data Acquisition
+175530	Battery ID 0 Error Code				Data Acquisition
+175540	Battery ID 1 Error Code				Data Acquisition
+175550	Cluster Error Code				Data Acquisition
+175560	Max Charge Current	A			Data Acquisition
+175570	Low Batt T2				Data Acquisition
+175580	High Batt T2				Data Acquisition
+175590	Low Batt V2				Data Acquisition
+175600	High Batt V2				Data Acquisition
+175610	Remaining Capacity	Ah			Data Acquisition
+175620	Current Range	km			Data Acquisition
+175630	SoC Battery	%			Data Acquisition
+175640	Total Distance	km			Data Acquisition
+175650	Vehicle Speed	kmh			Data Acquisition
+175660	Throotle Position	%			Data Acquisition
+175670	PowerTrain State				Data Acquisition
+175680	Drive Mode				Data Acquisition
+175690	Brake Pressed				Data Acquisition
+175700	Kill Switch Active				Data Acquisition
+175710	Kickstand Release Status				Data Acquisition
+175720	Malfunction Indication				Data Acquisition
+175730	Ignition				Data Acquisition
+175740	Top Case sensor				Data Acquisition
+175750	Full Charge Capacity				Data Acquisition
+180000	Device Serial Number				Manual CAN Requests
+180010	Device Version				Manual CAN Requests
+180020	Datetime				Manual CAN Requests
+180030	Sensor 1 Value				Manual CAN Requests
+180040	Sensor 1 Unit				Manual CAN Requests
+180050	Sensor 2 Value				Manual CAN Requests
+180060	Sensor 2 Unit				Manual CAN Requests
+180070	Sensor 3 Value				Manual CAN Requests
+180080	Sensor 3 Unit				Manual CAN Requests
+180090	Sensor 4 Value				Manual CAN Requests
+180100	Sensor 4 Unit				Manual CAN Requests
+180110	Sensor 5 Value				Manual CAN Requests
+180120	Sensor 5 Unit				Manual CAN Requests
+180130	Sensor 6 Value				Manual CAN Requests
+180140	Sensor 6 Unit				Manual CAN Requests
+180150	Sensor 7 Value				Manual CAN Requests
+180160	Sensor 7 Unit				Manual CAN Requests
+180170	Sensor 8 Value				Manual CAN Requests
+180180	Sensor 8 Unit				Manual CAN Requests
+180190	Device Status				Manual CAN Requests
+180200	Vehicle Plate				Manual CAN Requests
+180210	Thermograph Battery Voltage	mV			Manual CAN Requests
+180220	Frigo Machine Type				Manual CAN Requests
+180230	Frigo Overall and Engine Status				Manual CAN Requests
+180240	Frigo Additional Data 0				Manual CAN Requests
+180250	Frigo Additional Data 1				Manual CAN Requests
+180260	Frigo Engine Hours	hours			Manual CAN Requests
+180270	Frigo Standby Hours	hours			Manual CAN Requests
+180280	Frigo Switch On Hours	hours			Manual CAN Requests
+180290	Frigo Active Alarms 1 to 4				Manual CAN Requests
+180300	Frigo Active Alarms 5 to 8				Manual CAN Requests
+180310	Frigo Active Alarms 9 to 12				Manual CAN Requests
+180320	Frigo Active Alarms 13 to 16				Manual CAN Requests
+180330	Frigo Comp. 1 Set Point				Manual CAN Requests
+180340	Frigo Comp. 1 Supply				Manual CAN Requests
+180350	Frigo Comp. 1 Return				Manual CAN Requests
+180360	Frigo Comp. 1 Status				Manual CAN Requests
+180370	Frigo Comp. 2 Set Point				Manual CAN Requests
+180380	Frigo Comp. 2 Supply				Manual CAN Requests
+180390	Frigo Comp. 2 Return				Manual CAN Requests
+180400	Frigo Comp. 2 Status				Manual CAN Requests
+180410	Frigo Comp. 3 Set Point				Manual CAN Requests
+180420	Frigo Comp. 3 Supply				Manual CAN Requests
+180430	Frigo Comp. 3 Return				Manual CAN Requests
+180440	Frigo Comp. 3 Status				Manual CAN Requests
+180450	EBS Type				Manual CAN Requests
+180460	EBS Status				Manual CAN Requests
+180470	EBS Additional Data 0				Manual CAN Requests
+180480	EBS Additional Data 1				Manual CAN Requests
+180490	EBS Wheel Speed	km/h			Manual CAN Requests
+180500	EBS Odometer	km			Manual CAN Requests
+180510	EBS Weight Load	10*t			Manual CAN Requests
+180520	EBS Pneumatic Supply	10*Bar			Manual CAN Requests
+180530	EBS Truck VIN				Manual CAN Requests
+180540	EBS Active Alarms 1 to 4				Manual CAN Requests
+180550	EBS Active Alarms 5 to 8				Manual CAN Requests
+180560	EBS Active Alarms 9 to 12				Manual CAN Requests
+180570	EBS Active Alarms 13 to 16				Manual CAN Requests
+180580	EBS Security Status 0				Manual CAN Requests
+180590	EBS Security Status 1				Manual CAN Requests
+180600	EBS TPMS Status 0				Manual CAN Requests
+180610	EBS TPMS Status 1				Manual CAN Requests
+180620	EBS Tyre 1 Position				Manual CAN Requests
+180630	EBS Tyre 1 Pressure				Manual CAN Requests
+180640	EBS Tyre 1 Temperature				Manual CAN Requests
+180650	EBS Tyre 1 Status				Manual CAN Requests
+180660	EBS Tyre 1 Additional Data 0				Manual CAN Requests
+180670	EBS Tyre 1 Additional Data 1				Manual CAN Requests
+180680	EBS Tyre 2 Position				Manual CAN Requests
+180690	EBS Tyre 2 Pressure				Manual CAN Requests
+180700	EBS Tyre 2 Temperature				Manual CAN Requests
+180710	EBS Tyre 2 Status				Manual CAN Requests
+180720	EBS Tyre 2 Additional Data 0				Manual CAN Requests
+180730	EBS Tyre 2 Additional Data 1				Manual CAN Requests
+180740	EBS Tyre 3 Position				Manual CAN Requests
+180750	EBS Tyre 3 Pressure				Manual CAN Requests
+180760	EBS Tyre 3 Temperature				Manual CAN Requests
+180770	EBS Tyre 3 Status				Manual CAN Requests
+180780	EBS Tyre 3 Additional Data 0				Manual CAN Requests
+180790	EBS Tyre 3 Additional Data 1				Manual CAN Requests
+180800	EBS Tyre 4 Position				Manual CAN Requests
+180810	EBS Tyre 4 Pressure				Manual CAN Requests
+180820	EBS Tyre 4 Temperature				Manual CAN Requests
+180830	EBS Tyre 4 Status				Manual CAN Requests
+180840	EBS Tyre 4 Additional Data 0				Manual CAN Requests
+180850	EBS Tyre 4 Additional Data 1				Manual CAN Requests
+180860	EBS Tyre 5 Position				Manual CAN Requests
+180870	EBS Tyre 5 Pressure				Manual CAN Requests
+180880	EBS Tyre 5 Temperature				Manual CAN Requests
+180890	EBS Tyre 5 Status				Manual CAN Requests
+180900	EBS Tyre 5 Additional Data 0				Manual CAN Requests
+180910	EBS Tyre 5 Additional Data 1				Manual CAN Requests
+180920	EBS Tyre 6 Position				Manual CAN Requests
+180930	EBS Tyre 6 Pressure				Manual CAN Requests
+180940	EBS Tyre 6 Temperature				Manual CAN Requests
+180950	EBS Tyre 6 Status				Manual CAN Requests
+180960	EBS Tyre 6 Additional Data 0				Manual CAN Requests
+180970	EBS Tyre 6 Additional Data 1				Manual CAN Requests
+180980	EBS Tyre 7 Position				Manual CAN Requests
+180990	EBS Tyre 7 Pressure				Manual CAN Requests
+181000	EBS Tyre 7 Temperature				Manual CAN Requests
+181010	EBS Tyre 7 Status				Manual CAN Requests
+181020	EBS Tyre 7 Additional Data 0				Manual CAN Requests
+181030	EBS Tyre 7 Additional Data 1				Manual CAN Requests
+181040	EBS Tyre 8 Position				Manual CAN Requests
+181050	EBS Tyre 8 Pressure				Manual CAN Requests
+181060	EBS Tyre 8 Temperature				Manual CAN Requests
+181070	EBS Tyre 8 Status				Manual CAN Requests
+181080	EBS Tyre 8 Additional Data 0				Manual CAN Requests
+181090	EBS Tyre 8 Additional Data 1				Manual CAN Requests
+181100	EBS Tyre 9 Position				Manual CAN Requests
+181110	EBS Tyre 9 Pressure				Manual CAN Requests
+181120	EBS Tyre 9 Temperature				Manual CAN Requests
+181130	EBS Tyre 9 Status				Manual CAN Requests
+181140	EBS Tyre 9 Additional Data 0				Manual CAN Requests
+181150	EBS Tyre 9 Additional Data 1				Manual CAN Requests
+181160	EBS Tyre 10 Position				Manual CAN Requests
+181170	EBS Tyre 10 Pressure				Manual CAN Requests
+181180	EBS Tyre 10 Temperature				Manual CAN Requests
+181190	EBS Tyre 10 Status				Manual CAN Requests
+181200	EBS Tyre 10 Additional Data 0				Manual CAN Requests
+181210	EBS Tyre 10 Additional Data 1				Manual CAN Requests
+181220	EBS Tyre 11 Position				Manual CAN Requests
+181230	EBS Tyre 11 Pressure				Manual CAN Requests
+181240	EBS Tyre 11 Temperature				Manual CAN Requests
+181250	EBS Tyre 11 Status				Manual CAN Requests
+181260	EBS Tyre 11 Additional Data 0				Manual CAN Requests
+181270	EBS Tyre 11 Additional Data 1				Manual CAN Requests
+181280	EBS Tyre 12 Position				Manual CAN Requests
+181290	EBS Tyre 12 Pressure				Manual CAN Requests
+181300	EBS Tyre 12 Temperature				Manual CAN Requests
+181310	EBS Tyre 12 Status				Manual CAN Requests
+181320	EBS Tyre 12 Additional Data 0				Manual CAN Requests
+181330	EBS Tyre 12 Additional Data 1				Manual CAN Requests
+605000	Rotation speed of fan	rpm		LvcanIO	Network Settings
+605010	Rotation speed of feeder	rpm		LvcanIO	Network Settings
+605020	Speed of Reel	km/hÃ10		LvcanIO	Network Settings
+605030	Amount of cargo in the grain elevator	%Ã10		LvcanIO	Network Settings
+605040	Time of work with threshing drum on	s		LvcanIO	Network Settings
+605050	Overall time of combine work with threshing	s		LvcanIO	Network Settings
+605060	Current trip distance	m		LvcanIO	Network Settings
+605070	Overall distance covered during work	m		LvcanIO	Network Settings
+605080	Current distance covered during work	m		LvcanIO	Network Settings
+605090	Current harvest area	mÂ²		LvcanIO	Network Settings
+605100	Total harvest area	mÂ²		LvcanIO	Network Settings
+605110	Hydraulic oil pressure	barÃ10		LvcanIO	Network Settings
+605120	HV battery average power consumption	kWh/1000km		LvcanIO	Network Settings
+605130	HV battery pack health	%Ã10		LvcanIO	Network Settings
+605140	Electric engine work time(counted)	s		LvcanIO	Network Settings
+605150	Wheel speed sensor impulses(counted)	impulses		LvcanIO	Network Settings
+605160	Electric engine consumed kWh	kWhÃ100		LvcanIO	Network Settings
+605170	Axle 1 Load	kg		LvcanIO	Network Settings
+605180	Axle 2 Load	kg		LvcanIO	Network Settings
+605190	Axle 3 Load	kg		LvcanIO	Network Settings
+605200	Axle 4 Load	kg		LvcanIO	Network Settings
+605210	Left tire pressure trailer axle 1	barÃ10		LvcanIO	Network Settings
+605220	Right tire pressure trailer axle 1	barÃ10		LvcanIO	Network Settings
+605230	Left tire pressure trailer axle 2	barÃ10		LvcanIO	Network Settings
+605240	Right tire pressure trailer axle 2	barÃ10		LvcanIO	Network Settings
+605250	Left tire pressure trailer axle 3	barÃ10		LvcanIO	Network Settings
+605260	Right tire pressure trailer axle 3	barÃ10		LvcanIO	Network Settings
+605270	Left tire pressure trailer axle 4	barÃ10		LvcanIO	Network Settings
+605280	Right tire pressure trailer axle 4	barÃ10		LvcanIO	Network Settings
+605290	CNG level	barÃ100		LvcanIO	Network Settings
+605300	Engine work time on CNG	s		LvcanIO	Network Settings
+605310	Trailer VIN			LvcanIO	Network Settings
+605320	Trailer axle load sum	kg		LvcanIO	Network Settings
+605330	Total treated area	haÃ10000		LvcanIO	Network Settings
+605340	Level of liquid in tank	lÃ10		LvcanIO	Network Settings
+605350	Spray pressure	barÃ100		LvcanIO	Network Settings
+605360	Actual dose of liquid	l/haÃ10		LvcanIO	Network Settings
+605370	Amount of liquid used	lÃ10		LvcanIO	Network Settings
+605380	Area treated until tank is empty	haÃ10000		LvcanIO	Network Settings
+605390	Distance remaining until tank empty	mÃ10		LvcanIO	Network Settings
+605400	Engine work time on primary fuel	s		LvcanIO	Network Settings
+605410	Engine work time on duel fuel	s		LvcanIO	Network Settings
+605420	Total weight of spread material	kg		LvcanIO	Network Settings
+605430	Weight of material for spreading	kg		LvcanIO	Network Settings
+605440	Engine oil temperature	â		LvcanIO	Network Settings
+605450	Rear power take-off rotation speed	rpm		LvcanIO	Network Settings
+605460	Front power take-off rotation speed	rpm		LvcanIO	Network Settings
+605470	Amount of chemicals per sqr meter	g/mÂ²Ã100		LvcanIO	Network Settings
+605480	Spread width	mÃ100		LvcanIO	Network Settings
+605490	Active gear number			LvcanIO	Network Settings
+605500	Front left tire pressure	barÃ100		LvcanIO	Network Settings
+605510	Front right tire pressure	barÃ100		LvcanIO	Network Settings
+605520	Rear left tire pressure	barÃ100		LvcanIO	Network Settings
+605530	Rear right tire pressure	barÃ100		LvcanIO	Network Settings
+1001400	icam_loc_com1_dualcam_io_front_state				icam_loc_com2_dsm_cfg
+1001410	icam_loc_com1_dualcam_io_rear_state				icam_loc_com2_dsm_cfg
+1001420	icam_loc_com1_dualcam_io_front_running_state				icam_loc_com2_dsm_cfg
+1001430	icam_loc_com1_dualcam_io_rear_running_state				icam_loc_com2_dsm_cfg
+1002400	icam_loc_com2_dualcam_io_front_state				icam_loc_com2_dsm_cfg
+1002410	icam_loc_com2_dualcam_io_rear_state				icam_loc_com2_dsm_cfg
+1002420	icam_loc_com2_dualcam_io_front_running_state				icam_loc_com2_dsm_cfg
+1002430	icam_loc_com2_dualcam_io_rear_running_state				icam_loc_com2_dsm_cfg
+1011400	icam_loc_com1_dashcam_io_state				icam_loc_com2_dsm_cfg
+1011410	icam_loc_com1_dashcam_io_running_state				icam_loc_com2_dsm_cfg
+1012400	icam_loc_com2_dashcam_io_state				icam_loc_com2_dsm_cfg
+1012410	icam_loc_com2_dashcam_io_running_state				icam_loc_com2_dsm_cfg
+1021400	icam_loc_com1_adas_io_speed	km/h			icam_loc_com2_dsm_cfg
+1021410	icam_loc_com1_adas_io_left_sig				icam_loc_com2_dsm_cfg
+1021420	icam_loc_com1_adas_io_right_sig				icam_loc_com2_dsm_cfg
+1021430	icam_loc_com1_adas_io_brake_sig				icam_loc_com2_dsm_cfg
+1021440	icam_loc_com1_adas_io_rpm				icam_loc_com2_dsm_cfg
+1021450	icam_loc_com1_adas_io_ldw_left				icam_loc_com2_dsm_cfg
+1021460	icam_loc_com1_adas_io_ldw_right				icam_loc_com2_dsm_cfg
+1021470	icam_loc_com1_adas_io_distance_left	cm			icam_loc_com2_dsm_cfg
+1021480	icam_loc_com1_adas_io_distance_right	cm			icam_loc_com2_dsm_cfg
+1021490	icam_loc_com1_adas_io_collision_time				icam_loc_com2_dsm_cfg
+1021500	icam_loc_com1_adas_io_sda				icam_loc_com2_dsm_cfg
+1021510	icam_loc_com1_adas_io_fvsa				icam_loc_com2_dsm_cfg
+1021520	icam_loc_com1_adas_io_fpw				icam_loc_com2_dsm_cfg
+1021530	icam_loc_com1_adas_io_fcw				icam_loc_com2_dsm_cfg
+1021540	icam_loc_com1_adas_io_pcw				icam_loc_com2_dsm_cfg
+1021550	icam_loc_com1_adas_io_record				icam_loc_com2_dsm_cfg
+1021560	icam_loc_com1_adas_io_error_code				icam_loc_com2_dsm_cfg
+1021570	icam_loc_com1_adas_io_ahead_distance	m			icam_loc_com2_dsm_cfg
+1021580	icam_loc_com1_adas_io_ahead_speed	km/h			icam_loc_com2_dsm_cfg
+1021590	icam_loc_com1_adas_io_slr				icam_loc_com2_dsm_cfg
+1021600	icam_loc_com1_adas_io_slr_speed				icam_loc_com2_dsm_cfg
+1021610	icam_loc_com1_adas_io_slr_sens				icam_loc_com2_dsm_cfg
+1021620	icam_loc_com1_adas_io_sd_status				icam_loc_com2_dsm_cfg
+1021630	icam_loc_com1_adas_io_cam_state				icam_loc_com2_dsm_cfg
+1022400	icam_loc_com2_adas_io_speed	km/h			icam_loc_com2_dsm_cfg
+1022410	icam_loc_com2_adas_io_left_sig				icam_loc_com2_dsm_cfg
+1022420	icam_loc_com2_adas_io_right_sig				icam_loc_com2_dsm_cfg
+1022430	icam_loc_com2_adas_io_brake_sig				icam_loc_com2_dsm_cfg
+1022440	icam_loc_com2_adas_io_rpm				icam_loc_com2_dsm_cfg
+1022450	icam_loc_com2_adas_io_ldw_left				icam_loc_com2_dsm_cfg
+1022460	icam_loc_com2_adas_io_ldw_right				icam_loc_com2_dsm_cfg
+1022470	icam_loc_com2_adas_io_distance_left	cm			icam_loc_com2_dsm_cfg
+1022480	icam_loc_com2_adas_io_distance_right	cm			icam_loc_com2_dsm_cfg
+1022490	icam_loc_com2_adas_io_collision_time				icam_loc_com2_dsm_cfg
+1022500	icam_loc_com2_adas_io_sda				icam_loc_com2_dsm_cfg
+1022510	icam_loc_com2_adas_io_fvsa				icam_loc_com2_dsm_cfg
+1022520	icam_loc_com2_adas_io_fpw				icam_loc_com2_dsm_cfg
+1022530	icam_loc_com2_adas_io_fcw				icam_loc_com2_dsm_cfg
+1022540	icam_loc_com2_adas_io_pcw				icam_loc_com2_dsm_cfg
+1022550	icam_loc_com2_adas_io_record				icam_loc_com2_dsm_cfg
+1022560	icam_loc_com2_adas_io_error_code				icam_loc_com2_dsm_cfg
+1022570	icam_loc_com2_adas_io_ahead_distance	m			icam_loc_com2_dsm_cfg
+1022580	icam_loc_com2_adas_io_ahead_speed	km/h			icam_loc_com2_dsm_cfg
+1022590	icam_loc_com2_adas_io_slr				icam_loc_com2_dsm_cfg
+1022600	icam_loc_com2_adas_io_slr_speed				icam_loc_com2_dsm_cfg
+1022610	icam_loc_com2_adas_io_slr_sens				icam_loc_com2_dsm_cfg
+1022620	icam_loc_com2_adas_io_sd_status				icam_loc_com2_dsm_cfg
+1022630	icam_loc_com2_adas_io_cam_state				icam_loc_com2_dsm_cfg
+1031400	icam_loc_com1_dsm_io_drowsiness				icam_loc_com2_dsm_cfg
+1031410	icam_loc_com1_dsm_io_distraction				icam_loc_com2_dsm_cfg
+1031420	icam_loc_com1_dsm_io_yawning				icam_loc_com2_dsm_cfg
+1031430	icam_loc_com1_dsm_io_phone				icam_loc_com2_dsm_cfg
+1031440	icam_loc_com1_dsm_io_smoking				icam_loc_com2_dsm_cfg
+1031450	icam_loc_com1_dsm_io_driver_absence				icam_loc_com2_dsm_cfg
+1031460	icam_loc_com1_dsm_io_mask				icam_loc_com2_dsm_cfg
+1031470	icam_loc_com1_dsm_io_g_sens				icam_loc_com2_dsm_cfg
+1031480	icam_loc_com1_dsm_io_driver_name				icam_loc_com2_dsm_cfg
+1031490	icam_loc_com1_dsm_io_rec_status				icam_loc_com2_dsm_cfg
+1031500	icam_loc_com1_dsm_io_gps_status				icam_loc_com2_dsm_cfg
+1031510	icam_loc_com1_dsm_io_speed	km/h or mi/h			icam_loc_com2_dsm_cfg
+1031520	icam_loc_com1_dsm_io_error_code				icam_loc_com2_dsm_cfg
+1031530	icam_loc_com1_dsm_io_seatbelt				icam_loc_com2_dsm_cfg
+1031540	icam_loc_com1_dsm_io_cam_state				icam_loc_com2_dsm_cfg
+1032400	icam_loc_com2_dsm_io_drowsiness				icam_loc_com2_dsm_cfg
+1032410	icam_loc_com2_dsm_io_distraction				icam_loc_com2_dsm_cfg
+1032420	icam_loc_com2_dsm_io_yawning				icam_loc_com2_dsm_cfg
+1032430	icam_loc_com2_dsm_io_phone				icam_loc_com2_dsm_cfg
+1032440	icam_loc_com2_dsm_io_smoking				icam_loc_com2_dsm_cfg
+1032450	icam_loc_com2_dsm_io_driver_absence				icam_loc_com2_dsm_cfg
+1032460	icam_loc_com2_dsm_io_mask				icam_loc_com2_dsm_cfg
+1032470	icam_loc_com2_dsm_io_g_sens				icam_loc_com2_dsm_cfg
+1032480	icam_loc_com2_dsm_io_driver_name				icam_loc_com2_dsm_cfg
+1032490	icam_loc_com2_dsm_io_rec_status				icam_loc_com2_dsm_cfg
+1032500	icam_loc_com2_dsm_io_gps_status				icam_loc_com2_dsm_cfg
+1032510	icam_loc_com2_dsm_io_speed	km/h or mi/h			icam_loc_com2_dsm_cfg
+1032520	icam_loc_com2_dsm_io_error_code				icam_loc_com2_dsm_cfg
+1032530	icam_loc_com2_dsm_io_seatbelt				icam_loc_com2_dsm_cfg
+1032540	icam_loc_com2_dsm_io_cam_state				icam_loc_com2_dsm_cfg
+2001000	MODBUS Register Value 1				MODBUS Settings
+2001010	MODBUS Register Name 1				MODBUS Settings
+2001020	MODBUS Register Value 2				MODBUS Settings
+2001030	MODBUS Register Name 2				MODBUS Settings
+2001040	MODBUS Register Value 3				MODBUS Settings
+2001050	MODBUS Register Name 3				MODBUS Settings
+2001060	MODBUS Register Value 4				MODBUS Settings
+2001070	MODBUS Register Name 4				MODBUS Settings
+2001080	MODBUS Register Value 5				MODBUS Settings
+2001090	MODBUS Register Name 5				MODBUS Settings
+2001100	MODBUS Register Value 6				MODBUS Settings
+2001110	MODBUS Register Name 6				MODBUS Settings
+2001120	MODBUS Register Value 7				MODBUS Settings
+2001130	MODBUS Register Name 7				MODBUS Settings
+2001140	MODBUS Register Value 8				MODBUS Settings
+2001150	MODBUS Register Name 8				MODBUS Settings
+2001160	MODBUS Register Value 9				MODBUS Settings
+2001170	MODBUS Register Name 9				MODBUS Settings
+2001180	MODBUS Register Value 10				MODBUS Settings
+2001190	MODBUS Register Name 10				MODBUS Settings
+2001200	MODBUS Register Value 11				MODBUS Settings
+2001210	MODBUS Register Name 11				MODBUS Settings
+2001220	MODBUS Register Value 12				MODBUS Settings
+2001230	MODBUS Register Name 12				MODBUS Settings
+2001240	MODBUS Register Value 13				MODBUS Settings
+2001250	MODBUS Register Name 13				MODBUS Settings
+2001260	MODBUS Register Value 14				MODBUS Settings
+2001270	MODBUS Register Name 14				MODBUS Settings
+2001280	MODBUS Register Value 15				MODBUS Settings
+2001290	MODBUS Register Name 15				MODBUS Settings
+2001300	MODBUS Register Value 16				MODBUS Settings
+2001310	MODBUS Register Name 16				MODBUS Settings
+2001320	MODBUS Register Value 17				MODBUS Settings
+2001330	MODBUS Register Name 17				MODBUS Settings
+2001340	MODBUS Register Value 18				MODBUS Settings
+2001350	MODBUS Register Name 18				MODBUS Settings
+2001360	MODBUS Register Value 19				MODBUS Settings
+2001370	MODBUS Register Name 19				MODBUS Settings
+2001380	MODBUS Register Value 20				MODBUS Settings
+2001390	MODBUS Register Name 20				MODBUS Settings
+2001400	MODBUS Register Value 21				MODBUS Settings
+2001410	MODBUS Register Name 21				MODBUS Settings
+2001420	MODBUS Register Value 22				MODBUS Settings
+2001430	MODBUS Register Name 22				MODBUS Settings
+2001440	MODBUS Register Value 23				MODBUS Settings
+2001450	MODBUS Register Name 23				MODBUS Settings
+2001460	MODBUS Register Value 24				MODBUS Settings
+2001470	MODBUS Register Name 24				MODBUS Settings
+2001480	MODBUS Register Value 25				MODBUS Settings
+2001490	MODBUS Register Name 25				MODBUS Settings
+2001500	MODBUS Register Value 26				MODBUS Settings
+2001510	MODBUS Register Name 26				MODBUS Settings
+2001520	MODBUS Register Value 27				MODBUS Settings
+2001530	MODBUS Register Name 27				MODBUS Settings
+2001540	MODBUS Register Value 28				MODBUS Settings
+2001550	MODBUS Register Name 28				MODBUS Settings
+2001560	MODBUS Register Value 29				MODBUS Settings
+2001570	MODBUS Register Name 29				MODBUS Settings
+2001580	MODBUS Register Value 30				MODBUS Settings
+2001590	MODBUS Register Name 30				MODBUS Settings
