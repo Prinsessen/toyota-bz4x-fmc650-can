@@ -240,7 +240,9 @@ charging, none parked. Everything else Low + Monitoring.
 
 **Scenarios** (Features): Towing detection (11600, 0.22 g, 5 min activation), Jamming
 detection (11300) and Crash detection (11400, 1500 mg, Crash Trace off) at **High**,
-Eco Driving (11000) at Low with the accelerometer as source. They arrive as Traccar
+Eco Driving (11000) at High with the accelerometer as source - and **Accelerometer Auto
+Calibration (169) enabled**, which this tracker had off: without it the eco events came
+out minutes late and merged. They arrive as Traccar
 alarms (`tow`, `jamming`, `accident`, `hardAcceleration` / `hardBraking` /
 `hardCornering`) — see Server side. There is **no unplug detection** on this firmware
 (its block, 11500, is not in the device's configuration); the row next to it is the

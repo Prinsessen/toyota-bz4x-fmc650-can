@@ -58,7 +58,8 @@ Operand: 3 Monitoring, 5 On Change.
 
 | id | scenario | value |
 |---|---|---|
-| 11000 | Eco Driving priority | 1 (Low); thresholds 11004-11006 as shipped, source accelerometer |
+| 11000 | Eco Driving priority | 2 (High); thresholds 11004-11006 as shipped, source accelerometer |
+| 169 | Accelerometer Auto Calibration | **1** - it was 0 on this device; with it off, an accelerometer-based Eco Driving in a vertically mounted tracker produced events stamped minutes late and merged. Check it before trusting any eco-driving event |
 | 11300 / 11400 / 11600 | Jamming / Crash (11402 threshold 1500 mg, 11406 Crash Trace 0) / Towing (11605 0.22 g, 11602 activation 5 min) | 2 (High) |
 | 11700 | Immobilizer - not unplug detection (the FMC650 has no 11500 block) | 0 |
 | 11800 | Trip (start 5 km/h, ignition-off timeout 60 s) | 1 (Low) |
